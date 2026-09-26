@@ -15,7 +15,13 @@
     "use_spaced_review": true,
     "avoid_excessive_repetition": true,
     "rotate_topics_and_structures": true,
-    "distinguish_recognition_from_production": true
+    "distinguish_recognition_from_production": true,
+    "preferred_drill_format": {
+      "type": "single_sentence_translation",
+      "prompt": "Present exactly one Mandarin sentence in Hanzi only for the learner to translate into English.",
+      "feedback": "Evaluate the learner's English translation, then break down the Mandarin sentence and include tone-marked Hanyu Pinyin for pronunciation review.",
+      "pacing": "One sentence at a time."
+    }
   },
   "planning_rules": {
     "mastered_items": "use incidentally; review when overdue",
