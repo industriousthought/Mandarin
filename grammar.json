@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "items": {},
+  "item_schema": {
+    "id": "key",
+    "label": "string",
+    "status": "new | learning | shaky | productive | solid",
+    "first_seen": "YYYY-MM-DD | null",
+    "last_seen": "YYYY-MM-DD | null",
+    "recognition": {
+      "correct": "integer",
+      "incorrect": "integer"
+    },
+    "production": {
+      "correct": "integer",
+      "incorrect": "integer"
+    },
+    "recurring_errors": [
+      "string"
+    ],
+    "example_patterns": [
+      "string"
+    ],
+    "notes": [
+      "string"
+    ]
+  }
+}
