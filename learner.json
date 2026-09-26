@@ -21,6 +21,10 @@
       "prompt": "Present exactly one Mandarin sentence in Hanzi only for the learner to translate into English.",
       "feedback": "Evaluate the learner's English translation, then break down the Mandarin sentence and include tone-marked Hanyu Pinyin for pronunciation review.",
       "pacing": "One sentence at a time."
+    },
+    "unknown_word_placeholder": {
+      "token": "something",
+      "meaning": "When the learner uses 'something' in an English translation, interpret it as a placeholder for a Mandarin word or phrase they do not know rather than as part of the intended translation."
     }
   },
   "planning_rules": {
