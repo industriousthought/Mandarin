@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "learner_state": {
+    "level": "needs_baseline",
+    "baseline_assessed": false,
+    "last_session": null
+  },
+  "goals": [
+    "conversational Mandarin",
+    "listening comprehension",
+    "productive vocabulary and grammar"
+  ],
+  "lesson_preferences": {
+    "prioritize_production": true,
+    "use_spaced_review": true,
+    "avoid_excessive_repetition": true,
+    "rotate_topics_and_structures": true,
+    "distinguish_recognition_from_production": true
+  },
+  "planning_rules": {
+    "mastered_items": "use incidentally; review when overdue",
+    "shaky_items": "recur more often across varied contexts",
+    "new_items": "introduce gradually and test production",
+    "session_balance": "mix review, weak areas, and new material"
+  },
+  "current_focus": [],
+  "recurring_patterns": [],
+  "notes": [
+    "Initial state created before a formal baseline assessment."
+  ]
+}
