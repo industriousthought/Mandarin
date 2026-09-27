@@ -3,7 +3,7 @@
   "learner_state": {
     "level": "needs_baseline",
     "baseline_assessed": false,
-    "last_session": null
+    "last_session": "2026-09-27"
   },
   "goals": [
     "conversational Mandarin",
@@ -33,9 +33,20 @@
     "new_items": "introduce gradually and test production",
     "session_balance": "mix review, weak areas, and new material"
   },
-  "current_focus": [],
-  "recurring_patterns": [],
+  "current_focus": [
+    "basic daily-routine vocabulary",
+    "time and frequency expressions",
+    "recognizing modifiers without dropping them from the translation",
+    "common verb-complement and negation distinctions"
+  ],
+  "recurring_patterns": [
+    "Core sentence order and familiar daily-routine sentences are often understood correctly.",
+    "When one or two words are unknown, time/frequency modifiers are sometimes omitted from the English translation.",
+    "Needs review of 没有 + verb versus 不用 + verb.",
+    "Needs review of 想 as want/would like rather than treating it as a simple future marker."
+  ],
   "notes": [
-    "Initial state created before a formal baseline assessment."
+    "Initial drill-based baseline is underway; not enough evidence yet for a precise overall level.",
+    "2026-09-27: learner explicitly noticed 晚 shared across 晚上 and 晚饭, suggesting useful character-component awareness."
   ]
 }
