@@ -1,6 +1,102 @@
 {
   "schema_version": 1,
-  "items": {},
+  "items": {
+    "mei-you-vs-bu-yong": {
+      "label": "没有 + verb vs 不用 + verb",
+      "status": "shaky",
+      "first_seen": "2026-09-27",
+      "last_seen": "2026-09-27",
+      "recognition": {
+        "correct": 0,
+        "incorrect": 1
+      },
+      "production": {
+        "correct": 0,
+        "incorrect": 0
+      },
+      "recurring_errors": [
+        "Interpreted 没有上班 as 'didn't have to work' rather than 'didn't work/go to work'."
+      ],
+      "example_patterns": [
+        "没有上班 = did not work/go to work",
+        "不用上班 = do not need to work"
+      ],
+      "notes": [
+        "Review in a later session with different verbs, not just 上班."
+      ]
+    },
+    "xiang-modal": {
+      "label": "想 + verb for desire/intention",
+      "status": "learning",
+      "first_seen": "2026-09-27",
+      "last_seen": "2026-09-27",
+      "recognition": {
+        "correct": 0,
+        "incorrect": 1
+      },
+      "production": {
+        "correct": 0,
+        "incorrect": 0
+      },
+      "recurring_errors": [
+        "Translated 想去 as a simple future 'am going to' and omitted the desire/intention nuance."
+      ],
+      "example_patterns": [
+        "想去 = want to go / would like to go"
+      ],
+      "notes": []
+    },
+    "adjective-de-noun": {
+      "label": "Adjective + 的 + noun",
+      "status": "learning",
+      "first_seen": "2026-09-27",
+      "last_seen": "2026-09-27",
+      "recognition": {
+        "correct": 0,
+        "incorrect": 1
+      },
+      "production": {
+        "correct": 0,
+        "incorrect": 0
+      },
+      "recurring_errors": [
+        "辣的东西 was not parsed as 'spicy things/food'."
+      ],
+      "example_patterns": [
+        "辣的东西 = spicy things / spicy food"
+      ],
+      "notes": [
+        "Keep examples concrete and high-frequency."
+      ]
+    },
+    "habitual-time-frequency": {
+      "label": "Habitual time/frequency expressions",
+      "status": "learning",
+      "first_seen": "2026-09-27",
+      "last_seen": "2026-09-27",
+      "recognition": {
+        "correct": 4,
+        "incorrect": 5
+      },
+      "production": {
+        "correct": 0,
+        "incorrect": 0
+      },
+      "recurring_errors": [
+        "Dropped or misread modifiers such as 每天, 周末, 有时候, 通常, 星期天."
+      ],
+      "example_patterns": [
+        "每天 = every day",
+        "周末 = on weekends",
+        "常常 = often",
+        "有时候 = sometimes",
+        "通常 = usually"
+      ],
+      "notes": [
+        "常常 is currently strong; several neighboring frequency/time words remain shaky."
+      ]
+    }
+  },
   "item_schema": {
     "id": "key",
     "label": "string",
