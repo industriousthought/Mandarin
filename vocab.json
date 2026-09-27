@@ -1,6 +1,740 @@
 {
   "schema_version": 1,
-  "items": {},
+  "items": {
+    "每天": {
+      "pinyin": "měitiān",
+      "meanings": [
+        "every day"
+      ],
+      "status": "learning",
+      "first_seen": "2026-09-27",
+      "last_seen": "2026-09-27",
+      "last_production_test": null,
+      "recognition": {
+        "correct": 1,
+        "incorrect": 1
+      },
+      "production": {
+        "correct": 0,
+        "incorrect": 0
+      },
+      "notes": [
+        "Initially interpreted a habitual sentence as a one-time past event; later recognized 每天 correctly."
+      ],
+      "tags": [
+        "time",
+        "frequency"
+      ]
+    },
+    "常常": {
+      "pinyin": "chángcháng",
+      "meanings": [
+        "often",
+        "frequently"
+      ],
+      "status": "productive",
+      "first_seen": "2026-09-27",
+      "last_seen": "2026-09-27",
+      "last_production_test": null,
+      "recognition": {
+        "correct": 2,
+        "incorrect": 0
+      },
+      "production": {
+        "correct": 0,
+        "incorrect": 0
+      },
+      "notes": [],
+      "tags": [
+        "frequency"
+      ]
+    },
+    "妹妹": {
+      "pinyin": "mèimei",
+      "meanings": [
+        "younger sister"
+      ],
+      "status": "shaky",
+      "first_seen": "2026-09-27",
+      "last_seen": "2026-09-27",
+      "last_production_test": null,
+      "recognition": {
+        "correct": 0,
+        "incorrect": 1
+      },
+      "production": {
+        "correct": 0,
+        "incorrect": 0
+      },
+      "notes": [
+        "Unknown in 我妹妹不喜欢吃辣的东西。"
+      ],
+      "tags": [
+        "family"
+      ]
+    },
+    "辣": {
+      "pinyin": "là",
+      "meanings": [
+        "spicy",
+        "hot (flavor)"
+      ],
+      "status": "shaky",
+      "first_seen": "2026-09-27",
+      "last_seen": "2026-09-27",
+      "last_production_test": null,
+      "recognition": {
+        "correct": 0,
+        "incorrect": 1
+      },
+      "production": {
+        "correct": 0,
+        "incorrect": 0
+      },
+      "notes": [
+        "Unknown in 辣的东西."
+      ],
+      "tags": [
+        "food"
+      ]
+    },
+    "东西": {
+      "pinyin": "dōngxi",
+      "meanings": [
+        "thing",
+        "things",
+        "stuff"
+      ],
+      "status": "learning",
+      "first_seen": "2026-09-27",
+      "last_seen": "2026-09-27",
+      "last_production_test": null,
+      "recognition": {
+        "correct": 1,
+        "incorrect": 0
+      },
+      "production": {
+        "correct": 0,
+        "incorrect": 0
+      },
+      "notes": [
+        "Recognized the idea of 'things'; phrase with 辣的 was not fully parsed."
+      ],
+      "tags": [
+        "common"
+      ]
+    },
+    "朋友": {
+      "pinyin": "péngyou",
+      "meanings": [
+        "friend"
+      ],
+      "status": "learning",
+      "first_seen": "2026-09-27",
+      "last_seen": "2026-09-27",
+      "last_production_test": null,
+      "recognition": {
+        "correct": 1,
+        "incorrect": 1
+      },
+      "production": {
+        "correct": 0,
+        "incorrect": 0
+      },
+      "notes": [
+        "Missed in 我朋友今天没有上班。, then correctly recognized in 朋友家 later in the session."
+      ],
+      "tags": [
+        "people"
+      ]
+    },
+    "没有": {
+      "pinyin": "méiyǒu",
+      "meanings": [
+        "did not",
+        "have not",
+        "do not have"
+      ],
+      "status": "shaky",
+      "first_seen": "2026-09-27",
+      "last_seen": "2026-09-27",
+      "last_production_test": null,
+      "recognition": {
+        "correct": 0,
+        "incorrect": 1
+      },
+      "production": {
+        "correct": 0,
+        "incorrect": 0
+      },
+      "notes": [
+        "Misread 没有上班 as 'didn't have to work' instead of 'didn't work/go to work'."
+      ],
+      "tags": [
+        "negation"
+      ]
+    },
+    "上班": {
+      "pinyin": "shàngbān",
+      "meanings": [
+        "go to work",
+        "be at work",
+        "work"
+      ],
+      "status": "learning",
+      "first_seen": "2026-09-27",
+      "last_seen": "2026-09-27",
+      "last_production_test": null,
+      "recognition": {
+        "correct": 1,
+        "incorrect": 1
+      },
+      "production": {
+        "correct": 0,
+        "incorrect": 0
+      },
+      "notes": [
+        "Meaning was fuzzy in first encounter, then correctly recognized in 她每天坐公交车去上班。"
+      ],
+      "tags": [
+        "work"
+      ]
+    },
+    "周末": {
+      "pinyin": "zhōumò",
+      "meanings": [
+        "weekend",
+        "on weekends"
+      ],
+      "status": "shaky",
+      "first_seen": "2026-09-27",
+      "last_seen": "2026-09-27",
+      "last_production_test": null,
+      "recognition": {
+        "correct": 0,
+        "incorrect": 2
+      },
+      "production": {
+        "correct": 0,
+        "incorrect": 0
+      },
+      "notes": [
+        "Dropped from translations in two weekend sentences."
+      ],
+      "tags": [
+        "time"
+      ]
+    },
+    "散步": {
+      "pinyin": "sànbù",
+      "meanings": [
+        "take a walk",
+        "stroll"
+      ],
+      "status": "shaky",
+      "first_seen": "2026-09-27",
+      "last_seen": "2026-09-27",
+      "last_production_test": null,
+      "recognition": {
+        "correct": 0,
+        "incorrect": 1
+      },
+      "production": {
+        "correct": 0,
+        "incorrect": 0
+      },
+      "notes": [
+        "Confused with 跑步 'run'."
+      ],
+      "tags": [
+        "activity"
+      ]
+    },
+    "想": {
+      "pinyin": "xiǎng",
+      "meanings": [
+        "want to",
+        "would like to",
+        "think"
+      ],
+      "status": "learning",
+      "first_seen": "2026-09-27",
+      "last_seen": "2026-09-27",
+      "last_production_test": null,
+      "recognition": {
+        "correct": 0,
+        "incorrect": 1
+      },
+      "production": {
+        "correct": 0,
+        "incorrect": 0
+      },
+      "notes": [
+        "In 我明天想去超市买东西。, translated as a definite future plan and missed the 'want to' nuance."
+      ],
+      "tags": [
+        "modal"
+      ]
+    },
+    "超市": {
+      "pinyin": "chāoshì",
+      "meanings": [
+        "supermarket"
+      ],
+      "status": "learning",
+      "first_seen": "2026-09-27",
+      "last_seen": "2026-09-27",
+      "last_production_test": null,
+      "recognition": {
+        "correct": 1,
+        "incorrect": 0
+      },
+      "production": {
+        "correct": 0,
+        "incorrect": 0
+      },
+      "notes": [
+        "Translated broadly as 'store', which preserved the main idea."
+      ],
+      "tags": [
+        "place"
+      ]
+    },
+    "有时候": {
+      "pinyin": "yǒushíhou",
+      "meanings": [
+        "sometimes"
+      ],
+      "status": "shaky",
+      "first_seen": "2026-09-27",
+      "last_seen": "2026-09-27",
+      "last_production_test": null,
+      "recognition": {
+        "correct": 0,
+        "incorrect": 1
+      },
+      "production": {
+        "correct": 0,
+        "incorrect": 0
+      },
+      "notes": [
+        "Unknown in 我有时候下班以后去健身房。"
+      ],
+      "tags": [
+        "frequency"
+      ]
+    },
+    "下班": {
+      "pinyin": "xiàbān",
+      "meanings": [
+        "get off work",
+        "finish work"
+      ],
+      "status": "learning",
+      "first_seen": "2026-09-27",
+      "last_seen": "2026-09-27",
+      "last_production_test": null,
+      "recognition": {
+        "correct": 1,
+        "incorrect": 0
+      },
+      "production": {
+        "correct": 0,
+        "incorrect": 0
+      },
+      "notes": [
+        "Correctly understood within 下班以后 'after work'."
+      ],
+      "tags": [
+        "work"
+      ]
+    },
+    "以后": {
+      "pinyin": "yǐhòu",
+      "meanings": [
+        "after",
+        "afterward",
+        "later"
+      ],
+      "status": "learning",
+      "first_seen": "2026-09-27",
+      "last_seen": "2026-09-27",
+      "last_production_test": null,
+      "recognition": {
+        "correct": 1,
+        "incorrect": 0
+      },
+      "production": {
+        "correct": 0,
+        "incorrect": 0
+      },
+      "notes": [
+        "Correctly understood in 下班以后."
+      ],
+      "tags": [
+        "time"
+      ]
+    },
+    "健身房": {
+      "pinyin": "jiànshēnfáng",
+      "meanings": [
+        "gym"
+      ],
+      "status": "shaky",
+      "first_seen": "2026-09-27",
+      "last_seen": "2026-09-27",
+      "last_production_test": null,
+      "recognition": {
+        "correct": 0,
+        "incorrect": 1
+      },
+      "production": {
+        "correct": 0,
+        "incorrect": 0
+      },
+      "notes": [
+        "Unknown in 我有时候下班以后去健身房。"
+      ],
+      "tags": [
+        "place",
+        "fitness"
+      ]
+    },
+    "通常": {
+      "pinyin": "tōngcháng",
+      "meanings": [
+        "usually",
+        "normally"
+      ],
+      "status": "shaky",
+      "first_seen": "2026-09-27",
+      "last_seen": "2026-09-27",
+      "last_production_test": null,
+      "recognition": {
+        "correct": 0,
+        "incorrect": 1
+      },
+      "production": {
+        "correct": 0,
+        "incorrect": 0
+      },
+      "notes": [
+        "Sentence containing 通常 was not understood."
+      ],
+      "tags": [
+        "frequency"
+      ]
+    },
+    "在家": {
+      "pinyin": "zài jiā",
+      "meanings": [
+        "at home"
+      ],
+      "status": "shaky",
+      "first_seen": "2026-09-27",
+      "last_seen": "2026-09-27",
+      "last_production_test": null,
+      "recognition": {
+        "correct": 0,
+        "incorrect": 1
+      },
+      "production": {
+        "correct": 0,
+        "incorrect": 0
+      },
+      "notes": [
+        "Sentence containing 在家 was not understood."
+      ],
+      "tags": [
+        "place"
+      ]
+    },
+    "做饭": {
+      "pinyin": "zuòfàn",
+      "meanings": [
+        "cook",
+        "make a meal"
+      ],
+      "status": "shaky",
+      "first_seen": "2026-09-27",
+      "last_seen": "2026-09-27",
+      "last_production_test": null,
+      "recognition": {
+        "correct": 0,
+        "incorrect": 1
+      },
+      "production": {
+        "correct": 0,
+        "incorrect": 0
+      },
+      "notes": [
+        "Unknown in 他周末通常在家做饭。"
+      ],
+      "tags": [
+        "food",
+        "activity"
+      ]
+    },
+    "姐姐": {
+      "pinyin": "jiějie",
+      "meanings": [
+        "older sister"
+      ],
+      "status": "productive",
+      "first_seen": "2026-09-27",
+      "last_seen": "2026-09-27",
+      "last_production_test": null,
+      "recognition": {
+        "correct": 1,
+        "incorrect": 0
+      },
+      "production": {
+        "correct": 0,
+        "incorrect": 0
+      },
+      "notes": [],
+      "tags": [
+        "family"
+      ]
+    },
+    "看书": {
+      "pinyin": "kànshū",
+      "meanings": [
+        "read",
+        "read books"
+      ],
+      "status": "productive",
+      "first_seen": "2026-09-27",
+      "last_seen": "2026-09-27",
+      "last_production_test": null,
+      "recognition": {
+        "correct": 1,
+        "incorrect": 0
+      },
+      "production": {
+        "correct": 0,
+        "incorrect": 0
+      },
+      "notes": [],
+      "tags": [
+        "activity"
+      ]
+    },
+    "星期天": {
+      "pinyin": "xīngqītiān",
+      "meanings": [
+        "Sunday",
+        "on Sundays"
+      ],
+      "status": "shaky",
+      "first_seen": "2026-09-27",
+      "last_seen": "2026-09-27",
+      "last_production_test": null,
+      "recognition": {
+        "correct": 0,
+        "incorrect": 1
+      },
+      "production": {
+        "correct": 0,
+        "incorrect": 0
+      },
+      "notes": [
+        "Omitted from 我们星期天常常一起吃晚饭。"
+      ],
+      "tags": [
+        "time"
+      ]
+    },
+    "一起": {
+      "pinyin": "yìqǐ",
+      "meanings": [
+        "together"
+      ],
+      "status": "productive",
+      "first_seen": "2026-09-27",
+      "last_seen": "2026-09-27",
+      "last_production_test": null,
+      "recognition": {
+        "correct": 1,
+        "incorrect": 0
+      },
+      "production": {
+        "correct": 0,
+        "incorrect": 0
+      },
+      "notes": [],
+      "tags": [
+        "common"
+      ]
+    },
+    "晚饭": {
+      "pinyin": "wǎnfàn",
+      "meanings": [
+        "dinner",
+        "evening meal"
+      ],
+      "status": "shaky",
+      "first_seen": "2026-09-27",
+      "last_seen": "2026-09-27",
+      "last_production_test": null,
+      "recognition": {
+        "correct": 0,
+        "incorrect": 1
+      },
+      "production": {
+        "correct": 0,
+        "incorrect": 0
+      },
+      "notes": [
+        "Omitted from translation; learner then correctly noticed 晚 is the same character used in 晚上."
+      ],
+      "tags": [
+        "food",
+        "time"
+      ]
+    },
+    "昨天晚上": {
+      "pinyin": "zuótiān wǎnshang",
+      "meanings": [
+        "last night"
+      ],
+      "status": "productive",
+      "first_seen": "2026-09-27",
+      "last_seen": "2026-09-27",
+      "last_production_test": null,
+      "recognition": {
+        "correct": 1,
+        "incorrect": 0
+      },
+      "production": {
+        "correct": 0,
+        "incorrect": 0
+      },
+      "notes": [],
+      "tags": [
+        "time"
+      ]
+    },
+    "昨天下午": {
+      "pinyin": "zuótiān xiàwǔ",
+      "meanings": [
+        "yesterday afternoon"
+      ],
+      "status": "productive",
+      "first_seen": "2026-09-27",
+      "last_seen": "2026-09-27",
+      "last_production_test": null,
+      "recognition": {
+        "correct": 1,
+        "incorrect": 0
+      },
+      "production": {
+        "correct": 0,
+        "incorrect": 0
+      },
+      "notes": [],
+      "tags": [
+        "time"
+      ]
+    },
+    "喝茶": {
+      "pinyin": "hē chá",
+      "meanings": [
+        "drink tea"
+      ],
+      "status": "productive",
+      "first_seen": "2026-09-27",
+      "last_seen": "2026-09-27",
+      "last_production_test": null,
+      "recognition": {
+        "correct": 1,
+        "incorrect": 0
+      },
+      "production": {
+        "correct": 0,
+        "incorrect": 0
+      },
+      "notes": [],
+      "tags": [
+        "food",
+        "activity"
+      ]
+    },
+    "公交车": {
+      "pinyin": "gōngjiāochē",
+      "meanings": [
+        "bus",
+        "public bus"
+      ],
+      "status": "productive",
+      "first_seen": "2026-09-27",
+      "last_seen": "2026-09-27",
+      "last_production_test": null,
+      "recognition": {
+        "correct": 1,
+        "incorrect": 0
+      },
+      "production": {
+        "correct": 0,
+        "incorrect": 0
+      },
+      "notes": [],
+      "tags": [
+        "transport"
+      ]
+    },
+    "坐": {
+      "pinyin": "zuò",
+      "meanings": [
+        "sit",
+        "ride",
+        "take (transport)"
+      ],
+      "status": "productive",
+      "first_seen": "2026-09-27",
+      "last_seen": "2026-09-27",
+      "last_production_test": null,
+      "recognition": {
+        "correct": 1,
+        "incorrect": 0
+      },
+      "production": {
+        "correct": 0,
+        "incorrect": 0
+      },
+      "notes": [
+        "Correctly understood in 坐公交车."
+      ],
+      "tags": [
+        "transport"
+      ]
+    },
+    "晚上": {
+      "pinyin": "wǎnshang",
+      "meanings": [
+        "evening",
+        "night"
+      ],
+      "status": "productive",
+      "first_seen": "2026-09-27",
+      "last_seen": "2026-09-27",
+      "last_production_test": null,
+      "recognition": {
+        "correct": 2,
+        "incorrect": 0
+      },
+      "production": {
+        "correct": 0,
+        "incorrect": 0
+      },
+      "notes": [
+        "Also connected the character 晚 with 晚饭."
+      ],
+      "tags": [
+        "time"
+      ]
+    }
+  },
   "item_schema": {
     "hanzi": "key",
     "pinyin": "string",
