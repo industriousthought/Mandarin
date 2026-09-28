@@ -866,6 +866,162 @@
       "tags": [
         "connector"
       ]
+    },
+    "星期一": {
+      "pinyin": "xīngqīyī",
+      "meanings": [
+        "Monday",
+        "on Mondays"
+      ],
+      "status": "new",
+      "first_seen": "2026-09-28",
+      "last_seen": "2026-09-28",
+      "last_production_test": null,
+      "recognition": {
+        "correct": 0,
+        "incorrect": 0
+      },
+      "production": {
+        "correct": 0,
+        "incorrect": 0
+      },
+      "notes": [
+        "2026-09-28: added proactively after learner said they are ready to begin mixing all days of the week into practice."
+      ],
+      "tags": [
+        "time",
+        "day-of-week"
+      ]
+    },
+    "星期二": {
+      "pinyin": "xīngqī'èr",
+      "meanings": [
+        "Tuesday",
+        "on Tuesdays"
+      ],
+      "status": "new",
+      "first_seen": "2026-09-28",
+      "last_seen": "2026-09-28",
+      "last_production_test": null,
+      "recognition": {
+        "correct": 0,
+        "incorrect": 0
+      },
+      "production": {
+        "correct": 0,
+        "incorrect": 0
+      },
+      "notes": [
+        "2026-09-28: added proactively after learner said they are ready to begin mixing all days of the week into practice."
+      ],
+      "tags": [
+        "time",
+        "day-of-week"
+      ]
+    },
+    "星期三": {
+      "pinyin": "xīngqīsān",
+      "meanings": [
+        "Wednesday",
+        "on Wednesdays"
+      ],
+      "status": "new",
+      "first_seen": "2026-09-28",
+      "last_seen": "2026-09-28",
+      "last_production_test": null,
+      "recognition": {
+        "correct": 0,
+        "incorrect": 0
+      },
+      "production": {
+        "correct": 0,
+        "incorrect": 0
+      },
+      "notes": [
+        "2026-09-28: added proactively after learner said they are ready to begin mixing all days of the week into practice."
+      ],
+      "tags": [
+        "time",
+        "day-of-week"
+      ]
+    },
+    "星期四": {
+      "pinyin": "xīngqīsì",
+      "meanings": [
+        "Thursday",
+        "on Thursdays"
+      ],
+      "status": "new",
+      "first_seen": "2026-09-28",
+      "last_seen": "2026-09-28",
+      "last_production_test": null,
+      "recognition": {
+        "correct": 0,
+        "incorrect": 0
+      },
+      "production": {
+        "correct": 0,
+        "incorrect": 0
+      },
+      "notes": [
+        "2026-09-28: added proactively after learner said they are ready to begin mixing all days of the week into practice."
+      ],
+      "tags": [
+        "time",
+        "day-of-week"
+      ]
+    },
+    "星期五": {
+      "pinyin": "xīngqīwǔ",
+      "meanings": [
+        "Friday",
+        "on Fridays"
+      ],
+      "status": "new",
+      "first_seen": "2026-09-28",
+      "last_seen": "2026-09-28",
+      "last_production_test": null,
+      "recognition": {
+        "correct": 0,
+        "incorrect": 0
+      },
+      "production": {
+        "correct": 0,
+        "incorrect": 0
+      },
+      "notes": [
+        "2026-09-28: added proactively after learner said they are ready to begin mixing all days of the week into practice."
+      ],
+      "tags": [
+        "time",
+        "day-of-week"
+      ]
+    },
+    "星期六": {
+      "pinyin": "xīngqīliù",
+      "meanings": [
+        "Saturday",
+        "on Saturdays"
+      ],
+      "status": "new",
+      "first_seen": "2026-09-28",
+      "last_seen": "2026-09-28",
+      "last_production_test": null,
+      "recognition": {
+        "correct": 0,
+        "incorrect": 0
+      },
+      "production": {
+        "correct": 0,
+        "incorrect": 0
+      },
+      "notes": [
+        "2026-09-28: added proactively after learner said they are ready to begin mixing all days of the week into practice."
+      ],
+      "tags": [
+        "time",
+        "day-of-week"
+      ]
     }
   },
   "item_schema": {
