@@ -34,17 +34,19 @@
       ],
       "status": "productive",
       "first_seen": "2026-09-27",
-      "last_seen": "2026-09-27",
+      "last_seen": "2026-09-28",
       "last_production_test": null,
       "recognition": {
-        "correct": 2,
+        "correct": 5,
         "incorrect": 0
       },
       "production": {
         "correct": 0,
         "incorrect": 0
       },
-      "notes": [],
+      "notes": [
+        "2026-09-28: recognized correctly in several varied weekend/park sentences."
+      ],
       "tags": [
         "frequency"
       ]
@@ -54,12 +56,12 @@
       "meanings": [
         "younger sister"
       ],
-      "status": "shaky",
+      "status": "learning",
       "first_seen": "2026-09-27",
-      "last_seen": "2026-09-27",
+      "last_seen": "2026-09-28",
       "last_production_test": null,
       "recognition": {
-        "correct": 0,
+        "correct": 3,
         "incorrect": 1
       },
       "production": {
@@ -107,10 +109,10 @@
       ],
       "status": "learning",
       "first_seen": "2026-09-27",
-      "last_seen": "2026-09-27",
+      "last_seen": "2026-09-28",
       "last_production_test": null,
       "recognition": {
-        "correct": 1,
+        "correct": 2,
         "incorrect": 0
       },
       "production": {
@@ -129,12 +131,12 @@
       "meanings": [
         "friend"
       ],
-      "status": "learning",
+      "status": "productive",
       "first_seen": "2026-09-27",
-      "last_seen": "2026-09-27",
+      "last_seen": "2026-09-28",
       "last_production_test": null,
       "recognition": {
-        "correct": 1,
+        "correct": 8,
         "incorrect": 1
       },
       "production": {
@@ -157,18 +159,19 @@
       ],
       "status": "shaky",
       "first_seen": "2026-09-27",
-      "last_seen": "2026-09-27",
+      "last_seen": "2026-09-28",
       "last_production_test": null,
       "recognition": {
-        "correct": 0,
-        "incorrect": 1
+        "correct": 2,
+        "incorrect": 2
       },
       "production": {
         "correct": 0,
         "incorrect": 0
       },
       "notes": [
-        "Misread 没有上班 as 'didn't have to work' instead of 'didn't work/go to work'."
+        "Misread 没有上班 as 'didn't have to work' instead of 'didn't work/go to work'.",
+        "2026-09-28: correct with 去, but still confused with 不用 in 上班 context."
       ],
       "tags": [
         "negation"
@@ -183,10 +186,10 @@
       ],
       "status": "learning",
       "first_seen": "2026-09-27",
-      "last_seen": "2026-09-27",
+      "last_seen": "2026-09-28",
       "last_production_test": null,
       "recognition": {
-        "correct": 1,
+        "correct": 4,
         "incorrect": 1
       },
       "production": {
@@ -206,12 +209,12 @@
         "weekend",
         "on weekends"
       ],
-      "status": "shaky",
+      "status": "learning",
       "first_seen": "2026-09-27",
-      "last_seen": "2026-09-27",
+      "last_seen": "2026-09-28",
       "last_production_test": null,
       "recognition": {
-        "correct": 0,
+        "correct": 7,
         "incorrect": 2
       },
       "production": {
@@ -219,7 +222,8 @@
         "incorrect": 0
       },
       "notes": [
-        "Dropped from translations in two weekend sentences."
+        "Dropped from translations in two weekend sentences.",
+        "2026-09-28: strong recognition across several sentences after two misses in the previous session."
       ],
       "tags": [
         "time"
@@ -231,12 +235,12 @@
         "take a walk",
         "stroll"
       ],
-      "status": "shaky",
+      "status": "learning",
       "first_seen": "2026-09-27",
-      "last_seen": "2026-09-27",
+      "last_seen": "2026-09-28",
       "last_production_test": null,
       "recognition": {
-        "correct": 0,
+        "correct": 2,
         "incorrect": 1
       },
       "production": {
@@ -244,7 +248,8 @@
         "incorrect": 0
       },
       "notes": [
-        "Confused with 跑步 'run'."
+        "Confused with 跑步 'run'.",
+        "2026-09-28: correctly understood as walking/strolling in two sentences."
       ],
       "tags": [
         "activity"
@@ -259,10 +264,10 @@
       ],
       "status": "learning",
       "first_seen": "2026-09-27",
-      "last_seen": "2026-09-27",
+      "last_seen": "2026-09-28",
       "last_production_test": null,
       "recognition": {
-        "correct": 0,
+        "correct": 3,
         "incorrect": 1
       },
       "production": {
@@ -270,7 +275,8 @@
         "incorrect": 0
       },
       "notes": [
-        "In 我明天想去超市买东西。, translated as a definite future plan and missed the 'want to' nuance."
+        "In 我明天想去超市买东西。, translated as a definite future plan and missed the 'want to' nuance.",
+        "2026-09-28: correctly recognized want to / don't want to repeatedly."
       ],
       "tags": [
         "modal"
@@ -281,12 +287,12 @@
       "meanings": [
         "supermarket"
       ],
-      "status": "learning",
+      "status": "productive",
       "first_seen": "2026-09-27",
-      "last_seen": "2026-09-27",
+      "last_seen": "2026-09-28",
       "last_production_test": null,
       "recognition": {
-        "correct": 1,
+        "correct": 3,
         "incorrect": 0
       },
       "production": {
@@ -305,20 +311,21 @@
       "meanings": [
         "sometimes"
       ],
-      "status": "shaky",
+      "status": "learning",
       "first_seen": "2026-09-27",
-      "last_seen": "2026-09-27",
+      "last_seen": "2026-09-28",
       "last_production_test": null,
       "recognition": {
-        "correct": 0,
-        "incorrect": 1
+        "correct": 5,
+        "incorrect": 3
       },
       "production": {
         "correct": 0,
         "incorrect": 0
       },
       "notes": [
-        "Unknown in 我有时候下班以后去健身房。"
+        "Unknown in 我有时候下班以后去健身房。",
+        "2026-09-28: improving; sometimes still confused with 通常."
       ],
       "tags": [
         "frequency"
@@ -330,12 +337,12 @@
         "get off work",
         "finish work"
       ],
-      "status": "learning",
+      "status": "productive",
       "first_seen": "2026-09-27",
-      "last_seen": "2026-09-27",
+      "last_seen": "2026-09-28",
       "last_production_test": null,
       "recognition": {
-        "correct": 1,
+        "correct": 4,
         "incorrect": 0
       },
       "production": {
@@ -356,12 +363,12 @@
         "afterward",
         "later"
       ],
-      "status": "learning",
+      "status": "productive",
       "first_seen": "2026-09-27",
-      "last_seen": "2026-09-27",
+      "last_seen": "2026-09-28",
       "last_production_test": null,
       "recognition": {
-        "correct": 1,
+        "correct": 4,
         "incorrect": 0
       },
       "production": {
@@ -380,12 +387,12 @@
       "meanings": [
         "gym"
       ],
-      "status": "shaky",
+      "status": "learning",
       "first_seen": "2026-09-27",
-      "last_seen": "2026-09-27",
+      "last_seen": "2026-09-28",
       "last_production_test": null,
       "recognition": {
-        "correct": 0,
+        "correct": 2,
         "incorrect": 1
       },
       "production": {
@@ -406,20 +413,21 @@
         "usually",
         "normally"
       ],
-      "status": "shaky",
+      "status": "learning",
       "first_seen": "2026-09-27",
-      "last_seen": "2026-09-27",
+      "last_seen": "2026-09-28",
       "last_production_test": null,
       "recognition": {
-        "correct": 0,
-        "incorrect": 1
+        "correct": 4,
+        "incorrect": 3
       },
       "production": {
         "correct": 0,
         "incorrect": 0
       },
       "notes": [
-        "Sentence containing 通常 was not understood."
+        "Sentence containing 通常 was not understood.",
+        "2026-09-28: improving; occasionally translated as often/sometimes instead of usually."
       ],
       "tags": [
         "frequency"
@@ -430,12 +438,12 @@
       "meanings": [
         "at home"
       ],
-      "status": "shaky",
+      "status": "productive",
       "first_seen": "2026-09-27",
-      "last_seen": "2026-09-27",
+      "last_seen": "2026-09-28",
       "last_production_test": null,
       "recognition": {
-        "correct": 0,
+        "correct": 6,
         "incorrect": 1
       },
       "production": {
@@ -455,12 +463,12 @@
         "cook",
         "make a meal"
       ],
-      "status": "shaky",
+      "status": "learning",
       "first_seen": "2026-09-27",
-      "last_seen": "2026-09-27",
+      "last_seen": "2026-09-28",
       "last_production_test": null,
       "recognition": {
-        "correct": 0,
+        "correct": 3,
         "incorrect": 1
       },
       "production": {
@@ -482,10 +490,10 @@
       ],
       "status": "productive",
       "first_seen": "2026-09-27",
-      "last_seen": "2026-09-27",
+      "last_seen": "2026-09-28",
       "last_production_test": null,
       "recognition": {
-        "correct": 1,
+        "correct": 2,
         "incorrect": 0
       },
       "production": {
@@ -505,10 +513,10 @@
       ],
       "status": "productive",
       "first_seen": "2026-09-27",
-      "last_seen": "2026-09-27",
+      "last_seen": "2026-09-28",
       "last_production_test": null,
       "recognition": {
-        "correct": 1,
+        "correct": 3,
         "incorrect": 0
       },
       "production": {
@@ -526,20 +534,21 @@
         "Sunday",
         "on Sundays"
       ],
-      "status": "shaky",
+      "status": "learning",
       "first_seen": "2026-09-27",
-      "last_seen": "2026-09-27",
+      "last_seen": "2026-09-28",
       "last_production_test": null,
       "recognition": {
-        "correct": 0,
-        "incorrect": 1
+        "correct": 3,
+        "incorrect": 2
       },
       "production": {
         "correct": 0,
         "incorrect": 0
       },
       "notes": [
-        "Omitted from 我们星期天常常一起吃晚饭。"
+        "Omitted from 我们星期天常常一起吃晚饭。",
+        "2026-09-28: one unknown-word placeholder, followed by several correct recognitions."
       ],
       "tags": [
         "time"
@@ -573,12 +582,12 @@
         "dinner",
         "evening meal"
       ],
-      "status": "shaky",
+      "status": "learning",
       "first_seen": "2026-09-27",
-      "last_seen": "2026-09-27",
+      "last_seen": "2026-09-28",
       "last_production_test": null,
       "recognition": {
-        "correct": 0,
+        "correct": 3,
         "incorrect": 1
       },
       "production": {
@@ -644,10 +653,10 @@
       ],
       "status": "productive",
       "first_seen": "2026-09-27",
-      "last_seen": "2026-09-27",
+      "last_seen": "2026-09-28",
       "last_production_test": null,
       "recognition": {
-        "correct": 1,
+        "correct": 2,
         "incorrect": 0
       },
       "production": {
@@ -732,6 +741,130 @@
       ],
       "tags": [
         "time"
+      ]
+    },
+    "不用": {
+      "pinyin": "bú yòng",
+      "meanings": [
+        "do not need to",
+        "do not have to"
+      ],
+      "status": "learning",
+      "first_seen": "2026-09-28",
+      "last_seen": "2026-09-28",
+      "last_production_test": null,
+      "recognition": {
+        "correct": 3,
+        "incorrect": 1
+      },
+      "production": {
+        "correct": 0,
+        "incorrect": 0
+      },
+      "notes": [
+        "2026-09-28: generally recognized correctly, but once reduced to simple 'don't work' in 不用上班."
+      ],
+      "tags": [
+        "modal",
+        "necessity",
+        "negation"
+      ]
+    },
+    "公园": {
+      "pinyin": "gōngyuán",
+      "meanings": [
+        "park"
+      ],
+      "status": "productive",
+      "first_seen": "2026-09-28",
+      "last_seen": "2026-09-28",
+      "last_production_test": null,
+      "recognition": {
+        "correct": 4,
+        "incorrect": 0
+      },
+      "production": {
+        "correct": 0,
+        "incorrect": 0
+      },
+      "notes": [],
+      "tags": [
+        "place"
+      ]
+    },
+    "跑步": {
+      "pinyin": "pǎobù",
+      "meanings": [
+        "run",
+        "jog"
+      ],
+      "status": "learning",
+      "first_seen": "2026-09-28",
+      "last_seen": "2026-09-28",
+      "last_production_test": null,
+      "recognition": {
+        "correct": 2,
+        "incorrect": 0
+      },
+      "production": {
+        "correct": 0,
+        "incorrect": 0
+      },
+      "notes": [
+        "Contrasted successfully with 散步."
+      ],
+      "tags": [
+        "activity"
+      ]
+    },
+    "所以": {
+      "pinyin": "suǒyǐ",
+      "meanings": [
+        "so",
+        "therefore"
+      ],
+      "status": "shaky",
+      "first_seen": "2026-09-28",
+      "last_seen": "2026-09-28",
+      "last_production_test": null,
+      "recognition": {
+        "correct": 0,
+        "incorrect": 1
+      },
+      "production": {
+        "correct": 0,
+        "incorrect": 0
+      },
+      "notes": [
+        "2026-09-28: interpreted as 'then' in a cause-result sentence."
+      ],
+      "tags": [
+        "connector"
+      ]
+    },
+    "但是": {
+      "pinyin": "dànshì",
+      "meanings": [
+        "but",
+        "however"
+      ],
+      "status": "learning",
+      "first_seen": "2026-09-28",
+      "last_seen": "2026-09-28",
+      "last_production_test": null,
+      "recognition": {
+        "correct": 2,
+        "incorrect": 0
+      },
+      "production": {
+        "correct": 0,
+        "incorrect": 0
+      },
+      "notes": [
+        "2026-09-28: recognized correctly in two contrast sentences."
+      ],
+      "tags": [
+        "connector"
       ]
     }
   },
