@@ -5,10 +5,10 @@
       "label": "没有 + verb vs 不用 + verb",
       "status": "shaky",
       "first_seen": "2026-09-27",
-      "last_seen": "2026-09-27",
+      "last_seen": "2026-09-28",
       "recognition": {
-        "correct": 0,
-        "incorrect": 1
+        "correct": 4,
+        "incorrect": 3
       },
       "production": {
         "correct": 0,
@@ -22,16 +22,17 @@
         "不用上班 = do not need to work"
       ],
       "notes": [
-        "Review in a later session with different verbs, not just 上班."
+        "Review in a later session with different verbs, not just 上班.",
+        "2026-09-28: correctly distinguished 没有去 from 不用去, but still read 没有上班 as 'didn't have to work' and 不用上班 as simple 'don't work' in later items."
       ]
     },
     "xiang-modal": {
       "label": "想 + verb for desire/intention",
       "status": "learning",
       "first_seen": "2026-09-27",
-      "last_seen": "2026-09-27",
+      "last_seen": "2026-09-28",
       "recognition": {
-        "correct": 0,
+        "correct": 3,
         "incorrect": 1
       },
       "production": {
@@ -44,7 +45,9 @@
       "example_patterns": [
         "想去 = want to go / would like to go"
       ],
-      "notes": []
+      "notes": [
+        "2026-09-28: correctly recognized 想/不想 as want to / don't want to in three sentences."
+      ]
     },
     "adjective-de-noun": {
       "label": "Adjective + 的 + noun",
@@ -73,10 +76,10 @@
       "label": "Habitual time/frequency expressions",
       "status": "learning",
       "first_seen": "2026-09-27",
-      "last_seen": "2026-09-27",
+      "last_seen": "2026-09-28",
       "recognition": {
-        "correct": 4,
-        "incorrect": 5
+        "correct": 14,
+        "incorrect": 9
       },
       "production": {
         "correct": 0,
@@ -93,7 +96,31 @@
         "通常 = usually"
       ],
       "notes": [
-        "常常 is currently strong; several neighboring frequency/time words remain shaky."
+        "常常 is currently strong; several neighboring frequency/time words remain shaky.",
+        "2026-09-28: 常常 was consistently correct. 有时候 and 通常 were each correct multiple times but were still occasionally swapped. 星期天 improved after one miss."
+      ]
+    },
+    "cause-result-suoyi": {
+      "label": "所以 for cause-result ('so / therefore')",
+      "status": "shaky",
+      "first_seen": "2026-09-28",
+      "last_seen": "2026-09-28",
+      "recognition": {
+        "correct": 0,
+        "incorrect": 1
+      },
+      "production": {
+        "correct": 0,
+        "incorrect": 0
+      },
+      "recurring_errors": [
+        "Interpreted 所以 as 'then' rather than 'so / therefore'."
+      ],
+      "example_patterns": [
+        "A，所以B = A, so B"
+      ],
+      "notes": [
+        "Review later in a simple cause-result sentence."
       ]
     }
   },
