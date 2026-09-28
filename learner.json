@@ -3,7 +3,7 @@
   "learner_state": {
     "level": "needs_baseline",
     "baseline_assessed": false,
-    "last_session": "2026-09-27"
+    "last_session": "2026-09-28"
   },
   "goals": [
     "conversational Mandarin",
@@ -25,7 +25,9 @@
     "unknown_word_placeholder": {
       "token": "something",
       "meaning": "When the learner uses 'something' in an English translation, interpret it as a placeholder for a Mandarin word or phrase they do not know rather than as part of the intended translation."
-    }
+    },
+    "hanzi_display": "Display all Hanzi in noticeably larger heading-sized text for readability.",
+    "character_memory_strategy": "When useful, explain multi-character words through the literal or historical sense of their component characters to build intuition."
   },
   "planning_rules": {
     "mastered_items": "use incidentally; review when overdue",
@@ -35,18 +37,21 @@
   },
   "current_focus": [
     "basic daily-routine vocabulary",
-    "time and frequency expressions",
-    "recognizing modifiers without dropping them from the translation",
-    "common verb-complement and negation distinctions"
+    "time and frequency expressions, especially 有时候 vs 通常 vs 常常",
+    "没有 + verb versus 不用 + verb",
+    "recognizing modifiers without dropping them from the translation"
   ],
   "recurring_patterns": [
-    "Core sentence order and familiar daily-routine sentences are often understood correctly.",
-    "When one or two words are unknown, time/frequency modifiers are sometimes omitted from the English translation.",
-    "Needs review of 没有 + verb versus 不用 + verb.",
-    "Needs review of 想 as want/would like rather than treating it as a simple future marker."
+    "Core sentence order and familiar daily-routine sentences are usually understood correctly.",
+    "常常 is strong; 有时候 and 通常 are improving but are still occasionally swapped.",
+    "没有 + verb versus 不用 + verb remains shaky, especially with 上班.",
+    "想 + verb was recognized correctly several times and is improving.",
+    "Character-level breakdowns help the learner remember vocabulary."
   ],
   "notes": [
     "Initial drill-based baseline is underway; not enough evidence yet for a precise overall level.",
-    "2026-09-27: learner explicitly noticed 晚 shared across 晚上 and 晚饭, suggesting useful character-component awareness."
+    "2026-09-27: learner explicitly noticed 晚 shared across 晚上 and 晚饭, suggesting useful character-component awareness.",
+    "2026-09-28: learner requested all Hanzi be displayed in larger heading-sized text.",
+    "2026-09-28: character-by-character literal breakdowns were reported as especially helpful for remembering words such as 有时候, 通常, and 常常."
   ]
 }
