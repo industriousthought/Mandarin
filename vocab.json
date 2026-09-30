@@ -34,10 +34,10 @@
       ],
       "status": "productive",
       "first_seen": "2026-09-27",
-      "last_seen": "2026-09-28",
+      "last_seen": "2026-09-30",
       "last_production_test": null,
       "recognition": {
-        "correct": 5,
+        "correct": 7,
         "incorrect": 0
       },
       "production": {
@@ -45,7 +45,8 @@
         "incorrect": 0
       },
       "notes": [
-        "2026-09-28: recognized correctly in several varied weekend/park sentences."
+        "2026-09-28: recognized correctly in several varied weekend/park sentences.",
+        "2026-09-29–30: remains strong."
       ],
       "tags": [
         "frequency"
@@ -157,12 +158,12 @@
         "have not",
         "do not have"
       ],
-      "status": "shaky",
+      "status": "learning",
       "first_seen": "2026-09-27",
-      "last_seen": "2026-09-28",
+      "last_seen": "2026-09-30",
       "last_production_test": null,
       "recognition": {
-        "correct": 2,
+        "correct": 10,
         "incorrect": 2
       },
       "production": {
@@ -171,7 +172,8 @@
       },
       "notes": [
         "Misread 没有上班 as 'didn't have to work' instead of 'didn't work/go to work'.",
-        "2026-09-28: correct with 去, but still confused with 不用 in 上班 context."
+        "2026-09-28: correct with 去, but still confused with 不用 in 上班 context.",
+        "2026-09-29–30: reliably recognized as did not/have not in mixed contrasts."
       ],
       "tags": [
         "negation"
@@ -264,11 +266,11 @@
       ],
       "status": "learning",
       "first_seen": "2026-09-27",
-      "last_seen": "2026-09-28",
+      "last_seen": "2026-09-30",
       "last_production_test": null,
       "recognition": {
-        "correct": 3,
-        "incorrect": 1
+        "correct": 10,
+        "incorrect": 3
       },
       "production": {
         "correct": 0,
@@ -276,7 +278,8 @@
       },
       "notes": [
         "In 我明天想去超市买东西。, translated as a definite future plan and missed the 'want to' nuance.",
-        "2026-09-28: correctly recognized want to / don't want to repeatedly."
+        "2026-09-28: correctly recognized want to / don't want to repeatedly.",
+        "2026-09-29–30: want-to meaning is strong; occasional past-tense rendering of 不想 remains."
       ],
       "tags": [
         "modal"
@@ -313,10 +316,10 @@
       ],
       "status": "learning",
       "first_seen": "2026-09-27",
-      "last_seen": "2026-09-28",
+      "last_seen": "2026-09-30",
       "last_production_test": null,
       "recognition": {
-        "correct": 5,
+        "correct": 8,
         "incorrect": 3
       },
       "production": {
@@ -325,7 +328,8 @@
       },
       "notes": [
         "Unknown in 我有时候下班以后去健身房。",
-        "2026-09-28: improving; sometimes still confused with 通常."
+        "2026-09-28: improving; sometimes still confused with 通常.",
+        "2026-09-29–30: recognized correctly in several varied weekday sentences."
       ],
       "tags": [
         "frequency"
@@ -415,11 +419,11 @@
       ],
       "status": "learning",
       "first_seen": "2026-09-27",
-      "last_seen": "2026-09-28",
+      "last_seen": "2026-09-30",
       "last_production_test": null,
       "recognition": {
-        "correct": 4,
-        "incorrect": 3
+        "correct": 9,
+        "incorrect": 4
       },
       "production": {
         "correct": 0,
@@ -427,7 +431,8 @@
       },
       "notes": [
         "Sentence containing 通常 was not understood.",
-        "2026-09-28: improving; occasionally translated as often/sometimes instead of usually."
+        "2026-09-28: improving; occasionally translated as often/sometimes instead of usually.",
+        "2026-09-29–30: one early 'sometimes' error, then repeatedly recognized as usually."
       ],
       "tags": [
         "frequency"
@@ -536,10 +541,10 @@
       ],
       "status": "learning",
       "first_seen": "2026-09-27",
-      "last_seen": "2026-09-28",
+      "last_seen": "2026-09-30",
       "last_production_test": null,
       "recognition": {
-        "correct": 3,
+        "correct": 4,
         "incorrect": 2
       },
       "production": {
@@ -751,18 +756,19 @@
       ],
       "status": "learning",
       "first_seen": "2026-09-28",
-      "last_seen": "2026-09-28",
+      "last_seen": "2026-09-30",
       "last_production_test": null,
       "recognition": {
-        "correct": 3,
-        "incorrect": 1
+        "correct": 9,
+        "incorrect": 3
       },
       "production": {
         "correct": 0,
         "incorrect": 0
       },
       "notes": [
-        "2026-09-28: generally recognized correctly, but once reduced to simple 'don't work' in 不用上班."
+        "2026-09-28: generally recognized correctly, but once reduced to simple 'don't work' in 不用上班.",
+        "2026-09-29–30: core 'do not have to' meaning is strong; remaining errors are mainly time-reference/English tense."
       ],
       "tags": [
         "modal",
@@ -823,12 +829,12 @@
         "so",
         "therefore"
       ],
-      "status": "shaky",
+      "status": "learning",
       "first_seen": "2026-09-28",
-      "last_seen": "2026-09-28",
+      "last_seen": "2026-09-30",
       "last_production_test": null,
       "recognition": {
-        "correct": 0,
+        "correct": 8,
         "incorrect": 1
       },
       "production": {
@@ -836,7 +842,8 @@
         "incorrect": 0
       },
       "notes": [
-        "2026-09-28: interpreted as 'then' in a cause-result sentence."
+        "2026-09-28: interpreted as 'then' in a cause-result sentence.",
+        "2026-09-29–30: repeatedly recognized as so/therefore."
       ],
       "tags": [
         "connector"
@@ -850,18 +857,19 @@
       ],
       "status": "learning",
       "first_seen": "2026-09-28",
-      "last_seen": "2026-09-28",
+      "last_seen": "2026-09-30",
       "last_production_test": null,
       "recognition": {
-        "correct": 2,
-        "incorrect": 0
+        "correct": 9,
+        "incorrect": 1
       },
       "production": {
         "correct": 0,
         "incorrect": 0
       },
       "notes": [
-        "2026-09-28: recognized correctly in two contrast sentences."
+        "2026-09-28: recognized correctly in two contrast sentences.",
+        "2026-09-29–30: generally secure; once translated as 'so' rather than 'but'."
       ],
       "tags": [
         "connector"
@@ -873,12 +881,12 @@
         "Monday",
         "on Mondays"
       ],
-      "status": "new",
+      "status": "learning",
       "first_seen": "2026-09-28",
-      "last_seen": "2026-09-28",
+      "last_seen": "2026-09-30",
       "last_production_test": null,
       "recognition": {
-        "correct": 0,
+        "correct": 3,
         "incorrect": 0
       },
       "production": {
@@ -899,12 +907,12 @@
         "Tuesday",
         "on Tuesdays"
       ],
-      "status": "new",
+      "status": "learning",
       "first_seen": "2026-09-28",
-      "last_seen": "2026-09-28",
+      "last_seen": "2026-09-30",
       "last_production_test": null,
       "recognition": {
-        "correct": 0,
+        "correct": 4,
         "incorrect": 0
       },
       "production": {
@@ -925,12 +933,12 @@
         "Wednesday",
         "on Wednesdays"
       ],
-      "status": "new",
+      "status": "learning",
       "first_seen": "2026-09-28",
-      "last_seen": "2026-09-28",
+      "last_seen": "2026-09-30",
       "last_production_test": null,
       "recognition": {
-        "correct": 0,
+        "correct": 4,
         "incorrect": 0
       },
       "production": {
@@ -951,12 +959,12 @@
         "Thursday",
         "on Thursdays"
       ],
-      "status": "new",
+      "status": "learning",
       "first_seen": "2026-09-28",
-      "last_seen": "2026-09-28",
+      "last_seen": "2026-09-30",
       "last_production_test": null,
       "recognition": {
-        "correct": 0,
+        "correct": 4,
         "incorrect": 0
       },
       "production": {
@@ -977,12 +985,12 @@
         "Friday",
         "on Fridays"
       ],
-      "status": "new",
+      "status": "learning",
       "first_seen": "2026-09-28",
-      "last_seen": "2026-09-28",
+      "last_seen": "2026-09-30",
       "last_production_test": null,
       "recognition": {
-        "correct": 0,
+        "correct": 6,
         "incorrect": 0
       },
       "production": {
@@ -1003,9 +1011,35 @@
         "Saturday",
         "on Saturdays"
       ],
-      "status": "new",
+      "status": "learning",
       "first_seen": "2026-09-28",
-      "last_seen": "2026-09-28",
+      "last_seen": "2026-09-30",
+      "last_production_test": null,
+      "recognition": {
+        "correct": 4,
+        "incorrect": 1
+      },
+      "production": {
+        "correct": 0,
+        "incorrect": 0
+      },
+      "notes": [
+        "2026-09-28: added proactively after learner said they are ready to begin mixing all days of the week into practice.",
+        "2026-09-29–30: one Friday/Saturday mix-up; otherwise recognized correctly."
+      ],
+      "tags": [
+        "time",
+        "day-of-week"
+      ]
+    },
+    "餐厅": {
+      "pinyin": "cāntīng",
+      "meanings": [
+        "restaurant"
+      ],
+      "status": "new",
+      "first_seen": "2026-09-30",
+      "last_seen": "2026-09-30",
       "last_production_test": null,
       "recognition": {
         "correct": 0,
@@ -1016,11 +1050,215 @@
         "incorrect": 0
       },
       "notes": [
-        "2026-09-28: added proactively after learner said they are ready to begin mixing all days of the week into practice."
+        "2026-09-30: added as a planned expansion item; introduce gradually inside familiar sentence structures."
       ],
       "tags": [
-        "time",
-        "day-of-week"
+        "place",
+        "food"
+      ]
+    },
+    "咖啡店": {
+      "pinyin": "kāfēidiàn",
+      "meanings": [
+        "coffee shop",
+        "café"
+      ],
+      "status": "new",
+      "first_seen": "2026-09-30",
+      "last_seen": "2026-09-30",
+      "last_production_test": null,
+      "recognition": {
+        "correct": 0,
+        "incorrect": 0
+      },
+      "production": {
+        "correct": 0,
+        "incorrect": 0
+      },
+      "notes": [
+        "2026-09-30: added as a planned expansion item; introduce gradually inside familiar sentence structures."
+      ],
+      "tags": [
+        "place",
+        "food"
+      ]
+    },
+    "图书馆": {
+      "pinyin": "túshūguǎn",
+      "meanings": [
+        "library"
+      ],
+      "status": "new",
+      "first_seen": "2026-09-30",
+      "last_seen": "2026-09-30",
+      "last_production_test": null,
+      "recognition": {
+        "correct": 0,
+        "incorrect": 0
+      },
+      "production": {
+        "correct": 0,
+        "incorrect": 0
+      },
+      "notes": [
+        "2026-09-30: added as a planned expansion item; introduce gradually inside familiar sentence structures."
+      ],
+      "tags": [
+        "place"
+      ]
+    },
+    "回家": {
+      "pinyin": "huí jiā",
+      "meanings": [
+        "go home",
+        "return home"
+      ],
+      "status": "new",
+      "first_seen": "2026-09-30",
+      "last_seen": "2026-09-30",
+      "last_production_test": null,
+      "recognition": {
+        "correct": 0,
+        "incorrect": 0
+      },
+      "production": {
+        "correct": 0,
+        "incorrect": 0
+      },
+      "notes": [
+        "2026-09-30: added as a planned expansion item; introduce gradually inside familiar sentence structures."
+      ],
+      "tags": [
+        "movement",
+        "daily-routine"
+      ]
+    },
+    "买": {
+      "pinyin": "mǎi",
+      "meanings": [
+        "buy",
+        "purchase"
+      ],
+      "status": "new",
+      "first_seen": "2026-09-30",
+      "last_seen": "2026-09-30",
+      "last_production_test": null,
+      "recognition": {
+        "correct": 0,
+        "incorrect": 0
+      },
+      "production": {
+        "correct": 0,
+        "incorrect": 0
+      },
+      "notes": [
+        "2026-09-30: added as a planned expansion item; introduce gradually inside familiar sentence structures."
+      ],
+      "tags": [
+        "activity",
+        "shopping"
+      ]
+    },
+    "学习": {
+      "pinyin": "xuéxí",
+      "meanings": [
+        "study",
+        "learn"
+      ],
+      "status": "new",
+      "first_seen": "2026-09-30",
+      "last_seen": "2026-09-30",
+      "last_production_test": null,
+      "recognition": {
+        "correct": 0,
+        "incorrect": 0
+      },
+      "production": {
+        "correct": 0,
+        "incorrect": 0
+      },
+      "notes": [
+        "2026-09-30: added as a planned expansion item; introduce gradually inside familiar sentence structures."
+      ],
+      "tags": [
+        "activity"
+      ]
+    },
+    "开车": {
+      "pinyin": "kāichē",
+      "meanings": [
+        "drive",
+        "drive a car"
+      ],
+      "status": "new",
+      "first_seen": "2026-09-30",
+      "last_seen": "2026-09-30",
+      "last_production_test": null,
+      "recognition": {
+        "correct": 0,
+        "incorrect": 0
+      },
+      "production": {
+        "correct": 0,
+        "incorrect": 0
+      },
+      "notes": [
+        "2026-09-30: added as a planned expansion item; introduce gradually inside familiar sentence structures."
+      ],
+      "tags": [
+        "transport",
+        "activity"
+      ]
+    },
+    "然后": {
+      "pinyin": "ránhòu",
+      "meanings": [
+        "then",
+        "after that"
+      ],
+      "status": "new",
+      "first_seen": "2026-09-30",
+      "last_seen": "2026-09-30",
+      "last_production_test": null,
+      "recognition": {
+        "correct": 0,
+        "incorrect": 0
+      },
+      "production": {
+        "correct": 0,
+        "incorrect": 0
+      },
+      "notes": [
+        "2026-09-30: added as a planned expansion item; introduce gradually inside familiar sentence structures."
+      ],
+      "tags": [
+        "connector",
+        "sequence"
+      ]
+    },
+    "早上": {
+      "pinyin": "zǎoshang",
+      "meanings": [
+        "morning",
+        "in the morning"
+      ],
+      "status": "new",
+      "first_seen": "2026-09-30",
+      "last_seen": "2026-09-30",
+      "last_production_test": null,
+      "recognition": {
+        "correct": 0,
+        "incorrect": 0
+      },
+      "production": {
+        "correct": 0,
+        "incorrect": 0
+      },
+      "notes": [
+        "2026-09-30: added as a planned expansion item; introduce gradually inside familiar sentence structures."
+      ],
+      "tags": [
+        "time"
       ]
     }
   },
