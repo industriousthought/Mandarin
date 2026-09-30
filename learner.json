@@ -3,7 +3,7 @@
   "learner_state": {
     "level": "needs_baseline",
     "baseline_assessed": false,
-    "last_session": "2026-09-28"
+    "last_session": "2026-09-30"
   },
   "goals": [
     "conversational Mandarin",
@@ -27,7 +27,8 @@
       "meaning": "When the learner uses 'something' in an English translation, interpret it as a placeholder for a Mandarin word or phrase they do not know rather than as part of the intended translation."
     },
     "hanzi_display": "Display all Hanzi in noticeably larger heading-sized text for readability.",
-    "character_memory_strategy": "When useful, explain multi-character words through the literal or historical sense of their component characters to build intuition."
+    "character_memory_strategy": "When useful, explain multi-character words through the literal or historical sense of their component characters to build intuition.",
+    "literal_translation_priority": "When evaluating Hanzi-to-English drills, prioritize evidence that every Mandarin element was understood. Slightly awkward or literal English is acceptable and can be useful; mention natural English separately without treating literal phrasing as an error."
   },
   "planning_rules": {
     "mastered_items": "use incidentally; review when overdue",
@@ -36,17 +37,19 @@
     "session_balance": "mix review, weak areas, and new material"
   },
   "current_focus": [
-    "basic daily-routine vocabulary",
+    "expanding daily-routine vocabulary while keeping familiar sentence structures",
     "time and frequency expressions, especially 有时候 vs 通常 vs 常常",
     "没有 + verb versus 不用 + verb",
-    "recognizing modifiers without dropping them from the translation",
+    "using time words/context to interpret present vs past rather than imposing English tense",
     "days of the week: 星期一 through 星期天"
   ],
   "recurring_patterns": [
     "Core sentence order and familiar daily-routine sentences are usually understood correctly.",
-    "常常 is strong; 有时候 and 通常 are improving but are still occasionally swapped.",
-    "没有 + verb versus 不用 + verb remains shaky, especially with 上班.",
-    "想 + verb was recognized correctly several times and is improving.",
+    "Weekdays are now mostly recognized in normal sentences; 星期五/星期六 had one mix-up and should continue to recur incidentally.",
+    "有时候, 通常, and 常常 are substantially stronger; one 通常→sometimes error occurred early, followed by repeated correct recognition.",
+    "没有 + verb versus 不用 + verb improved markedly and is now usually distinguished correctly.",
+    "所以 is now recognized reliably as so/therefore after the earlier confusion with 'then'.",
+    "The main current grammar issue is English tense leakage: 不想/不用 were occasionally rendered as past even when no past-time cue was present.",
     "Character-level breakdowns help the learner remember vocabulary."
   ],
   "notes": [
@@ -54,6 +57,9 @@
     "2026-09-27: learner explicitly noticed 晚 shared across 晚上 and 晚饭, suggesting useful character-component awareness.",
     "2026-09-28: learner requested all Hanzi be displayed in larger heading-sized text.",
     "2026-09-28: character-by-character literal breakdowns were reported as especially helpful for remembering words such as 有时候, 通常, and 常常.",
-    "2026-09-28: learner said they are ready to begin mixing the full weekday set (星期一–星期六, alongside 星期天) into normal drills."
+    "2026-09-28: learner said they are ready to begin mixing the full weekday set (星期一–星期六, alongside 星期天) into normal drills.",
+    "2026-09-30: learner explicitly said slightly awkward/literal English translations are intentional when they demonstrate understanding of every Mandarin word.",
+    "2026-09-30: full weekday set is functioning well in contextual drills; continue spaced incidental use rather than isolated weekday drilling.",
+    "2026-09-30: begin gradual vocabulary expansion, introducing only one or two genuinely new items at a time inside otherwise familiar sentence patterns."
   ]
 }
