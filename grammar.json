@@ -3,11 +3,11 @@
   "items": {
     "mei-you-vs-bu-yong": {
       "label": "没有 + verb vs 不用 + verb",
-      "status": "learning",
+      "status": "productive",
       "first_seen": "2026-09-27",
-      "last_seen": "2026-09-30",
+      "last_seen": "2026-10-03",
       "recognition": {
-        "correct": 12,
+        "correct": 16,
         "incorrect": 5
       },
       "production": {
@@ -24,16 +24,17 @@
       "notes": [
         "Review in a later session with different verbs, not just 上班.",
         "2026-09-28: correctly distinguished 没有去 from 不用去, but still read 没有上班 as 'didn't have to work' and 不用上班 as simple 'don't work' in later items.",
-        "2026-09-29–30: strong improvement across many mixed sentences; learner usually distinguished 没有 'did not' from 不用 'do not/have to'. Remaining errors were mostly tense/context rather than the core semantic contrast."
+        "2026-09-29–30: strong improvement across many mixed sentences; learner usually distinguished 没有 'did not' from 不用 'do not/have to'. Remaining errors were mostly tense/context rather than the core semantic contrast.",
+        "2026-10-01–03: distinction remained reliable in mixed sentences."
       ]
     },
     "xiang-modal": {
       "label": "想 + verb for desire/intention",
-      "status": "learning",
+      "status": "productive",
       "first_seen": "2026-09-27",
-      "last_seen": "2026-09-30",
+      "last_seen": "2026-10-03",
       "recognition": {
-        "correct": 10,
+        "correct": 18,
         "incorrect": 3
       },
       "production": {
@@ -49,7 +50,8 @@
       ],
       "notes": [
         "2026-09-28: correctly recognized 想/不想 as want to / don't want to in three sentences.",
-        "2026-09-29–30: desire meaning is well recognized; current issue is interpreting time reference from context."
+        "2026-09-29–30: desire meaning is well recognized; current issue is interpreting time reference from context.",
+        "2026-10-01–03: 想 consistently recognized as desire/intention; remaining questions concern English tense choice, not 想 itself."
       ]
     },
     "adjective-de-noun": {
@@ -77,12 +79,12 @@
     },
     "habitual-time-frequency": {
       "label": "Habitual time/frequency expressions",
-      "status": "learning",
+      "status": "productive",
       "first_seen": "2026-09-27",
-      "last_seen": "2026-09-30",
+      "last_seen": "2026-10-03",
       "recognition": {
-        "correct": 25,
-        "incorrect": 11
+        "correct": 31,
+        "incorrect": 12
       },
       "production": {
         "correct": 0,
@@ -101,16 +103,17 @@
       "notes": [
         "常常 is currently strong; several neighboring frequency/time words remain shaky.",
         "2026-09-28: 常常 was consistently correct. 有时候 and 通常 were each correct multiple times but were still occasionally swapped. 星期天 improved after one miss.",
-        "2026-09-29–30: weekdays and frequency words were mostly correct in varied sentences. One early 通常→sometimes error and one 星期六→Friday mix-up."
+        "2026-09-29–30: weekdays and frequency words were mostly correct in varied sentences. One early 通常→sometimes error and one 星期六→Friday mix-up.",
+        "2026-10-01–03: frequency expressions remained strong; one 星期五→Wednesday weekday slip occurred on 2026-10-03."
       ]
     },
     "cause-result-suoyi": {
       "label": "所以 for cause-result ('so / therefore')",
-      "status": "learning",
+      "status": "productive",
       "first_seen": "2026-09-28",
-      "last_seen": "2026-09-30",
+      "last_seen": "2026-10-03",
       "recognition": {
-        "correct": 8,
+        "correct": 13,
         "incorrect": 1
       },
       "production": {
@@ -125,17 +128,18 @@
       ],
       "notes": [
         "Review later in a simple cause-result sentence.",
-        "2026-09-29–30: 所以 was correctly translated as so/therefore repeatedly; earlier confusion appears largely resolved."
+        "2026-09-29–30: 所以 was correctly translated as so/therefore repeatedly; earlier confusion appears largely resolved.",
+        "2026-10-01–03: 所以 consistently recognized as so/therefore."
       ]
     },
     "time-reference-from-context": {
       "label": "Time reference from context rather than verb conjugation",
-      "status": "shaky",
+      "status": "learning",
       "first_seen": "2026-09-29",
-      "last_seen": "2026-09-30",
+      "last_seen": "2026-10-03",
       "recognition": {
-        "correct": 6,
-        "incorrect": 4
+        "correct": 13,
+        "incorrect": 6
       },
       "production": {
         "correct": 0,
@@ -152,7 +156,37 @@
         "星期五不用上班 = don't have to work Friday (unless broader context makes Friday past)"
       ],
       "notes": [
-        "Focus on explicit time expressions and discourse context; Mandarin verbs themselves are not conjugated for tense."
+        "Focus on explicit time expressions and discourse context; Mandarin verbs themselves are not conjugated for tense.",
+        "2026-10-01–03: major improvement. Learner explicitly identified tense ambiguity when Mandarin lacked a past/future cue and correctly used context such as 昨天/今天早上. A couple of English renderings mixed tenses despite correct Mandarin parsing."
+      ]
+    },
+    "sequence-xian-zai-ranhou-yihou": {
+      "label": "Sequencing with 先…再… / 然后 / 以后",
+      "status": "learning",
+      "first_seen": "2026-10-02",
+      "last_seen": "2026-10-03",
+      "recognition": {
+        "correct": 11,
+        "incorrect": 2
+      },
+      "production": {
+        "correct": 0,
+        "incorrect": 0
+      },
+      "recurring_errors": [
+        "先 was unknown on first encounter.",
+        "再 was unknown on first encounter.",
+        "下班以后 was omitted from two otherwise-correct translations before later being handled correctly."
+      ],
+      "example_patterns": [
+        "X 以后 Y = after X, Y",
+        "先 X，再 Y = first X, then Y",
+        "X，然后 Y = X, then/after that Y"
+      ],
+      "notes": [
+        "Learner explicitly asked how 然后 differs from 以后 and then applied the distinction correctly.",
+        "先…再… was learned quickly after explanation and is now usually recognized correctly.",
+        "Continue mixing all three patterns without isolated drilling."
       ]
     }
   },
