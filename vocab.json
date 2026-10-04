@@ -1037,12 +1037,12 @@
       "meanings": [
         "restaurant"
       ],
-      "status": "new",
+      "status": "learning",
       "first_seen": "2026-09-30",
-      "last_seen": "2026-09-30",
+      "last_seen": "2026-10-03",
       "last_production_test": null,
       "recognition": {
-        "correct": 0,
+        "correct": 4,
         "incorrect": 0
       },
       "production": {
@@ -1050,7 +1050,8 @@
         "incorrect": 0
       },
       "notes": [
-        "2026-09-30: added as a planned expansion item; introduce gradually inside familiar sentence structures."
+        "2026-09-30: added as a planned expansion item; introduce gradually inside familiar sentence structures.",
+        "2026-10-01–03: first answer had slight uncertainty, then recognized correctly several times."
       ],
       "tags": [
         "place",
@@ -1063,12 +1064,12 @@
         "coffee shop",
         "café"
       ],
-      "status": "new",
+      "status": "productive",
       "first_seen": "2026-09-30",
-      "last_seen": "2026-09-30",
+      "last_seen": "2026-10-03",
       "last_production_test": null,
       "recognition": {
-        "correct": 0,
+        "correct": 5,
         "incorrect": 0
       },
       "production": {
@@ -1076,7 +1077,8 @@
         "incorrect": 0
       },
       "notes": [
-        "2026-09-30: added as a planned expansion item; introduce gradually inside familiar sentence structures."
+        "2026-09-30: added as a planned expansion item; introduce gradually inside familiar sentence structures.",
+        "2026-10-01–03: recognized reliably in varied routine sentences."
       ],
       "tags": [
         "place",
@@ -1088,12 +1090,12 @@
       "meanings": [
         "library"
       ],
-      "status": "new",
+      "status": "productive",
       "first_seen": "2026-09-30",
-      "last_seen": "2026-09-30",
+      "last_seen": "2026-10-03",
       "last_production_test": null,
       "recognition": {
-        "correct": 0,
+        "correct": 5,
         "incorrect": 0
       },
       "production": {
@@ -1101,7 +1103,8 @@
         "incorrect": 0
       },
       "notes": [
-        "2026-09-30: added as a planned expansion item; introduce gradually inside familiar sentence structures."
+        "2026-09-30: added as a planned expansion item; introduce gradually inside familiar sentence structures.",
+        "2026-10-01–03: recognized reliably with 学习."
       ],
       "tags": [
         "place"
@@ -1113,12 +1116,12 @@
         "go home",
         "return home"
       ],
-      "status": "new",
+      "status": "productive",
       "first_seen": "2026-09-30",
-      "last_seen": "2026-09-30",
+      "last_seen": "2026-10-03",
       "last_production_test": null,
       "recognition": {
-        "correct": 0,
+        "correct": 8,
         "incorrect": 0
       },
       "production": {
@@ -1126,7 +1129,8 @@
         "incorrect": 0
       },
       "notes": [
-        "2026-09-30: added as a planned expansion item; introduce gradually inside familiar sentence structures."
+        "2026-09-30: added as a planned expansion item; introduce gradually inside familiar sentence structures.",
+        "2026-10-01–03: recognized reliably as go/return home."
       ],
       "tags": [
         "movement",
@@ -1139,12 +1143,12 @@
         "buy",
         "purchase"
       ],
-      "status": "new",
+      "status": "learning",
       "first_seen": "2026-09-30",
-      "last_seen": "2026-09-30",
+      "last_seen": "2026-10-03",
       "last_production_test": null,
       "recognition": {
-        "correct": 0,
+        "correct": 4,
         "incorrect": 0
       },
       "production": {
@@ -1152,7 +1156,8 @@
         "incorrect": 0
       },
       "notes": [
-        "2026-09-30: added as a planned expansion item; introduce gradually inside familiar sentence structures."
+        "2026-09-30: added as a planned expansion item; introduce gradually inside familiar sentence structures.",
+        "2026-10-01–03: recognized correctly in 买东西 across several sentences."
       ],
       "tags": [
         "activity",
@@ -1165,12 +1170,12 @@
         "study",
         "learn"
       ],
-      "status": "new",
+      "status": "productive",
       "first_seen": "2026-09-30",
-      "last_seen": "2026-09-30",
+      "last_seen": "2026-10-03",
       "last_production_test": null,
       "recognition": {
-        "correct": 0,
+        "correct": 6,
         "incorrect": 0
       },
       "production": {
@@ -1178,7 +1183,8 @@
         "incorrect": 0
       },
       "notes": [
-        "2026-09-30: added as a planned expansion item; introduce gradually inside familiar sentence structures."
+        "2026-09-30: added as a planned expansion item; introduce gradually inside familiar sentence structures.",
+        "2026-10-01–03: recognized reliably in library/coffee-shop contexts."
       ],
       "tags": [
         "activity"
@@ -1190,12 +1196,12 @@
         "drive",
         "drive a car"
       ],
-      "status": "new",
+      "status": "productive",
       "first_seen": "2026-09-30",
-      "last_seen": "2026-09-30",
+      "last_seen": "2026-10-03",
       "last_production_test": null,
       "recognition": {
-        "correct": 0,
+        "correct": 5,
         "incorrect": 0
       },
       "production": {
@@ -1203,7 +1209,8 @@
         "incorrect": 0
       },
       "notes": [
-        "2026-09-30: added as a planned expansion item; introduce gradually inside familiar sentence structures."
+        "2026-09-30: added as a planned expansion item; introduce gradually inside familiar sentence structures.",
+        "2026-10-01–03: recognized reliably in work and travel sentences."
       ],
       "tags": [
         "transport",
@@ -1216,12 +1223,12 @@
         "then",
         "after that"
       ],
-      "status": "new",
+      "status": "productive",
       "first_seen": "2026-09-30",
-      "last_seen": "2026-09-30",
+      "last_seen": "2026-10-03",
       "last_production_test": null,
       "recognition": {
-        "correct": 0,
+        "correct": 8,
         "incorrect": 0
       },
       "production": {
@@ -1229,7 +1236,8 @@
         "incorrect": 0
       },
       "notes": [
-        "2026-09-30: added as a planned expansion item; introduce gradually inside familiar sentence structures."
+        "2026-09-30: added as a planned expansion item; introduce gradually inside familiar sentence structures.",
+        "2026-10-01–03: repeatedly recognized as then/after that and correctly distinguished from 以后."
       ],
       "tags": [
         "connector",
@@ -1242,9 +1250,92 @@
         "morning",
         "in the morning"
       ],
-      "status": "new",
+      "status": "productive",
       "first_seen": "2026-09-30",
-      "last_seen": "2026-09-30",
+      "last_seen": "2026-10-03",
+      "last_production_test": null,
+      "recognition": {
+        "correct": 5,
+        "incorrect": 0
+      },
+      "production": {
+        "correct": 0,
+        "incorrect": 0
+      },
+      "notes": [
+        "2026-09-30: added as a planned expansion item; introduce gradually inside familiar sentence structures.",
+        "2026-10-01–03: recognized reliably in morning time phrases."
+      ],
+      "tags": [
+        "time"
+      ]
+    },
+    "先": {
+      "pinyin": "xiān",
+      "meanings": [
+        "first",
+        "before doing something else"
+      ],
+      "status": "learning",
+      "first_seen": "2026-10-02",
+      "last_seen": "2026-10-03",
+      "last_production_test": null,
+      "recognition": {
+        "correct": 7,
+        "incorrect": 1
+      },
+      "production": {
+        "correct": 0,
+        "incorrect": 0
+      },
+      "notes": [
+        "2026-10-02: initially unknown; learned as an adverb marking the first step in a sequence.",
+        "2026-10-02–03: quickly became reliable in 先…然后… and 先…再… patterns."
+      ],
+      "tags": [
+        "sequence",
+        "adverb",
+        "time"
+      ]
+    },
+    "再": {
+      "pinyin": "zài",
+      "meanings": [
+        "then",
+        "next",
+        "again"
+      ],
+      "status": "learning",
+      "first_seen": "2026-10-02",
+      "last_seen": "2026-10-03",
+      "last_production_test": null,
+      "recognition": {
+        "correct": 4,
+        "incorrect": 1
+      },
+      "production": {
+        "correct": 0,
+        "incorrect": 0
+      },
+      "notes": [
+        "2026-10-02: initially unknown in 先…再…; learned the sequencing meaning 'then/next'.",
+        "Also means 'again' in other contexts; sequencing use is current focus."
+      ],
+      "tags": [
+        "sequence",
+        "adverb",
+        "time"
+      ]
+    },
+    "起床": {
+      "pinyin": "qǐchuáng",
+      "meanings": [
+        "get up",
+        "get out of bed"
+      ],
+      "status": "new",
+      "first_seen": "2026-10-03",
+      "last_seen": "2026-10-03",
       "last_production_test": null,
       "recognition": {
         "correct": 0,
@@ -1255,7 +1346,239 @@
         "incorrect": 0
       },
       "notes": [
-        "2026-09-30: added as a planned expansion item; introduce gradually inside familiar sentence structures."
+        "2026-10-03: added as a planned expansion item; introduce gradually, usually 1–2 at a time."
+      ],
+      "tags": [
+        "daily-routine",
+        "activity"
+      ]
+    },
+    "睡觉": {
+      "pinyin": "shuìjiào",
+      "meanings": [
+        "sleep",
+        "go to bed"
+      ],
+      "status": "new",
+      "first_seen": "2026-10-03",
+      "last_seen": "2026-10-03",
+      "last_production_test": null,
+      "recognition": {
+        "correct": 0,
+        "incorrect": 0
+      },
+      "production": {
+        "correct": 0,
+        "incorrect": 0
+      },
+      "notes": [
+        "2026-10-03: added as a planned expansion item; introduce gradually, usually 1–2 at a time."
+      ],
+      "tags": [
+        "daily-routine",
+        "activity"
+      ]
+    },
+    "洗澡": {
+      "pinyin": "xǐzǎo",
+      "meanings": [
+        "shower",
+        "bathe"
+      ],
+      "status": "new",
+      "first_seen": "2026-10-03",
+      "last_seen": "2026-10-03",
+      "last_production_test": null,
+      "recognition": {
+        "correct": 0,
+        "incorrect": 0
+      },
+      "production": {
+        "correct": 0,
+        "incorrect": 0
+      },
+      "notes": [
+        "2026-10-03: added as a planned expansion item; introduce gradually, usually 1–2 at a time."
+      ],
+      "tags": [
+        "daily-routine",
+        "activity"
+      ]
+    },
+    "早饭": {
+      "pinyin": "zǎofàn",
+      "meanings": [
+        "breakfast"
+      ],
+      "status": "new",
+      "first_seen": "2026-10-03",
+      "last_seen": "2026-10-03",
+      "last_production_test": null,
+      "recognition": {
+        "correct": 0,
+        "incorrect": 0
+      },
+      "production": {
+        "correct": 0,
+        "incorrect": 0
+      },
+      "notes": [
+        "2026-10-03: added as a planned expansion item; introduce gradually, usually 1–2 at a time."
+      ],
+      "tags": [
+        "food",
+        "time"
+      ]
+    },
+    "午饭": {
+      "pinyin": "wǔfàn",
+      "meanings": [
+        "lunch"
+      ],
+      "status": "new",
+      "first_seen": "2026-10-03",
+      "last_seen": "2026-10-03",
+      "last_production_test": null,
+      "recognition": {
+        "correct": 0,
+        "incorrect": 0
+      },
+      "production": {
+        "correct": 0,
+        "incorrect": 0
+      },
+      "notes": [
+        "2026-10-03: added as a planned expansion item; introduce gradually, usually 1–2 at a time."
+      ],
+      "tags": [
+        "food",
+        "time"
+      ]
+    },
+    "商店": {
+      "pinyin": "shāngdiàn",
+      "meanings": [
+        "store",
+        "shop"
+      ],
+      "status": "new",
+      "first_seen": "2026-10-03",
+      "last_seen": "2026-10-03",
+      "last_production_test": null,
+      "recognition": {
+        "correct": 0,
+        "incorrect": 0
+      },
+      "production": {
+        "correct": 0,
+        "incorrect": 0
+      },
+      "notes": [
+        "2026-10-03: added as a planned expansion item; introduce gradually, usually 1–2 at a time."
+      ],
+      "tags": [
+        "place",
+        "shopping"
+      ]
+    },
+    "工作": {
+      "pinyin": "gōngzuò",
+      "meanings": [
+        "work",
+        "job"
+      ],
+      "status": "new",
+      "first_seen": "2026-10-03",
+      "last_seen": "2026-10-03",
+      "last_production_test": null,
+      "recognition": {
+        "correct": 0,
+        "incorrect": 0
+      },
+      "production": {
+        "correct": 0,
+        "incorrect": 0
+      },
+      "notes": [
+        "2026-10-03: added as a planned expansion item; introduce gradually, usually 1–2 at a time."
+      ],
+      "tags": [
+        "work",
+        "activity"
+      ]
+    },
+    "休息": {
+      "pinyin": "xiūxi",
+      "meanings": [
+        "rest",
+        "take a break"
+      ],
+      "status": "new",
+      "first_seen": "2026-10-03",
+      "last_seen": "2026-10-03",
+      "last_production_test": null,
+      "recognition": {
+        "correct": 0,
+        "incorrect": 0
+      },
+      "production": {
+        "correct": 0,
+        "incorrect": 0
+      },
+      "notes": [
+        "2026-10-03: added as a planned expansion item; introduce gradually, usually 1–2 at a time."
+      ],
+      "tags": [
+        "daily-routine",
+        "activity"
+      ]
+    },
+    "看电影": {
+      "pinyin": "kàn diànyǐng",
+      "meanings": [
+        "watch a movie",
+        "see a movie"
+      ],
+      "status": "new",
+      "first_seen": "2026-10-03",
+      "last_seen": "2026-10-03",
+      "last_production_test": null,
+      "recognition": {
+        "correct": 0,
+        "incorrect": 0
+      },
+      "production": {
+        "correct": 0,
+        "incorrect": 0
+      },
+      "notes": [
+        "2026-10-03: added as a planned expansion item; introduce gradually, usually 1–2 at a time."
+      ],
+      "tags": [
+        "activity",
+        "leisure"
+      ]
+    },
+    "中午": {
+      "pinyin": "zhōngwǔ",
+      "meanings": [
+        "noon",
+        "midday"
+      ],
+      "status": "new",
+      "first_seen": "2026-10-03",
+      "last_seen": "2026-10-03",
+      "last_production_test": null,
+      "recognition": {
+        "correct": 0,
+        "incorrect": 0
+      },
+      "production": {
+        "correct": 0,
+        "incorrect": 0
+      },
+      "notes": [
+        "2026-10-03: added as a planned expansion item; introduce gradually, usually 1–2 at a time."
       ],
       "tags": [
         "time"
