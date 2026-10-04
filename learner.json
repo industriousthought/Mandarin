@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
   "learner_state": {
-    "level": "needs_baseline",
-    "baseline_assessed": false,
-    "last_session": "2026-09-30"
+    "level": "beginner; recognition stronger than production",
+    "baseline_assessed": true,
+    "last_session": "2026-10-03"
   },
   "goals": [
     "conversational Mandarin",
@@ -38,19 +38,20 @@
   },
   "current_focus": [
     "expanding daily-routine vocabulary while keeping familiar sentence structures",
-    "time and frequency expressions, especially 有时候 vs 通常 vs 常常",
-    "没有 + verb versus 不用 + verb",
+    "sequencing with 先…再…, 然后, and 以后",
     "using time words/context to interpret present vs past rather than imposing English tense",
-    "days of the week: 星期一 through 星期天"
+    "keeping weekdays and frequency expressions in incidental spaced review",
+    "gradually introducing 1–2 new vocabulary items at a time"
   ],
   "recurring_patterns": [
     "Core sentence order and familiar daily-routine sentences are usually understood correctly.",
-    "Weekdays are now mostly recognized in normal sentences; 星期五/星期六 had one mix-up and should continue to recur incidentally.",
-    "有时候, 通常, and 常常 are substantially stronger; one 通常→sometimes error occurred early, followed by repeated correct recognition.",
-    "没有 + verb versus 不用 + verb improved markedly and is now usually distinguished correctly.",
-    "所以 is now recognized reliably as so/therefore after the earlier confusion with 'then'.",
-    "The main current grammar issue is English tense leakage: 不想/不用 were occasionally rendered as past even when no past-time cue was present.",
-    "Character-level breakdowns help the learner remember vocabulary."
+    "Weekdays are mostly secure in context, but one 星期五→Wednesday slip occurred on 2026-10-03; continue incidental review.",
+    "有时候, 通常, 常常, 没有 vs 不用, and 所以 are now strong enough to use mainly as background material.",
+    "然后 is now reliably understood as then/after that and distinguished from 以后.",
+    "先…再… was learned quickly and is already being parsed correctly in multi-clause sentences.",
+    "Time-reference reasoning improved substantially: learner now explicitly notices when Mandarin leaves tense ambiguous and supplies English tense from context.",
+    "下班以后 was omitted from two translations, so keep it in rotation without over-drilling.",
+    "Character-level and literal structural breakdowns remain useful for learning new words and grammar."
   ],
   "notes": [
     "Initial drill-based baseline is underway; not enough evidence yet for a precise overall level.",
@@ -60,6 +61,9 @@
     "2026-09-28: learner said they are ready to begin mixing the full weekday set (星期一–星期六, alongside 星期天) into normal drills.",
     "2026-09-30: learner explicitly said slightly awkward/literal English translations are intentional when they demonstrate understanding of every Mandarin word.",
     "2026-09-30: full weekday set is functioning well in contextual drills; continue spaced incidental use rather than isolated weekday drilling.",
-    "2026-09-30: begin gradual vocabulary expansion, introducing only one or two genuinely new items at a time inside otherwise familiar sentence patterns."
+    "2026-09-30: begin gradual vocabulary expansion, introducing only one or two genuinely new items at a time inside otherwise familiar sentence patterns.",
+    "2026-10-01–03: planned vocabulary 餐厅, 咖啡店, 图书馆, 回家, 买, 学习, 开车, 然后, and 早上 moved from passive expansion list into active sentence practice.",
+    "2026-10-02: learner explicitly distinguished 然后 from 以后 and learned 先 plus 再 as sequencing adverbs.",
+    "2026-10-03: next expansion batch added: 起床, 睡觉, 洗澡, 早饭, 午饭, 商店, 工作, 休息, 看电影, 中午."
   ]
 }
