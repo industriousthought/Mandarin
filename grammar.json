@@ -5,9 +5,9 @@
       "label": "没有 + verb vs 不用 + verb",
       "status": "productive",
       "first_seen": "2026-09-27",
-      "last_seen": "2026-10-03",
+      "last_seen": "2026-10-08",
       "recognition": {
-        "correct": 16,
+        "correct": 21,
         "incorrect": 5
       },
       "production": {
@@ -25,16 +25,17 @@
         "Review in a later session with different verbs, not just 上班.",
         "2026-09-28: correctly distinguished 没有去 from 不用去, but still read 没有上班 as 'didn't have to work' and 不用上班 as simple 'don't work' in later items.",
         "2026-09-29–30: strong improvement across many mixed sentences; learner usually distinguished 没有 'did not' from 不用 'do not/have to'. Remaining errors were mostly tense/context rather than the core semantic contrast.",
-        "2026-10-01–03: distinction remained reliable in mixed sentences."
+        "2026-10-01–03: distinction remained reliable in mixed sentences.",
+        "2026-10-05–08: 不用 remains strong and is now also distinguished from 不能 and 还要."
       ]
     },
     "xiang-modal": {
       "label": "想 + verb for desire/intention",
       "status": "productive",
       "first_seen": "2026-09-27",
-      "last_seen": "2026-10-03",
+      "last_seen": "2026-10-08",
       "recognition": {
-        "correct": 18,
+        "correct": 30,
         "incorrect": 3
       },
       "production": {
@@ -51,7 +52,8 @@
       "notes": [
         "2026-09-28: correctly recognized 想/不想 as want to / don't want to in three sentences.",
         "2026-09-29–30: desire meaning is well recognized; current issue is interpreting time reference from context.",
-        "2026-10-01–03: 想 consistently recognized as desire/intention; remaining questions concern English tense choice, not 想 itself."
+        "2026-10-01–03: 想 consistently recognized as desire/intention; remaining questions concern English tense choice, not 想 itself.",
+        "2026-10-04–08: 想 remains highly reliable in complex multi-clause sentences."
       ]
     },
     "adjective-de-noun": {
@@ -81,9 +83,9 @@
       "label": "Habitual time/frequency expressions",
       "status": "productive",
       "first_seen": "2026-09-27",
-      "last_seen": "2026-10-03",
+      "last_seen": "2026-10-08",
       "recognition": {
-        "correct": 31,
+        "correct": 37,
         "incorrect": 12
       },
       "production": {
@@ -104,16 +106,17 @@
         "常常 is currently strong; several neighboring frequency/time words remain shaky.",
         "2026-09-28: 常常 was consistently correct. 有时候 and 通常 were each correct multiple times but were still occasionally swapped. 星期天 improved after one miss.",
         "2026-09-29–30: weekdays and frequency words were mostly correct in varied sentences. One early 通常→sometimes error and one 星期六→Friday mix-up.",
-        "2026-10-01–03: frequency expressions remained strong; one 星期五→Wednesday weekday slip occurred on 2026-10-03."
+        "2026-10-01–03: frequency expressions remained strong; one 星期五→Wednesday weekday slip occurred on 2026-10-03.",
+        "2026-10-04–08: routine/frequency expressions remain stable; no new frequency-word confusion observed."
       ]
     },
     "cause-result-suoyi": {
       "label": "所以 for cause-result ('so / therefore')",
-      "status": "productive",
+      "status": "solid",
       "first_seen": "2026-09-28",
-      "last_seen": "2026-10-03",
+      "last_seen": "2026-10-08",
       "recognition": {
-        "correct": 13,
+        "correct": 21,
         "incorrect": 1
       },
       "production": {
@@ -129,17 +132,18 @@
       "notes": [
         "Review later in a simple cause-result sentence.",
         "2026-09-29–30: 所以 was correctly translated as so/therefore repeatedly; earlier confusion appears largely resolved.",
-        "2026-10-01–03: 所以 consistently recognized as so/therefore."
+        "2026-10-01–03: 所以 consistently recognized as so/therefore.",
+        "2026-10-04–08: 所以 is now consistently automatic in recognition."
       ]
     },
     "time-reference-from-context": {
       "label": "Time reference from context rather than verb conjugation",
-      "status": "learning",
+      "status": "productive",
       "first_seen": "2026-09-29",
-      "last_seen": "2026-10-03",
+      "last_seen": "2026-10-08",
       "recognition": {
-        "correct": 13,
-        "incorrect": 6
+        "correct": 25,
+        "incorrect": 7
       },
       "production": {
         "correct": 0,
@@ -147,7 +151,8 @@
       },
       "recurring_errors": [
         "Rendered 不想去 as 'didn't want to go' when context indicated current/future desire.",
-        "Rendered 不用去/不用上班 as past 'didn't have to' when no past-time cue was present."
+        "Rendered 不用去/不用上班 as past 'didn't have to' when no past-time cue was present.",
+        "Occasionally chooses a natural English tense that is more specific than the Mandarin itself, while explicitly recognizing the ambiguity."
       ],
       "example_patterns": [
         "昨天没有去 = didn't go yesterday",
@@ -157,17 +162,18 @@
       ],
       "notes": [
         "Focus on explicit time expressions and discourse context; Mandarin verbs themselves are not conjugated for tense.",
-        "2026-10-01–03: major improvement. Learner explicitly identified tense ambiguity when Mandarin lacked a past/future cue and correctly used context such as 昨天/今天早上. A couple of English renderings mixed tenses despite correct Mandarin parsing."
+        "2026-10-01–03: major improvement. Learner explicitly identified tense ambiguity when Mandarin lacked a past/future cue and correctly used context such as 昨天/今天早上. A couple of English renderings mixed tenses despite correct Mandarin parsing.",
+        "2026-10-04–08: learner repeatedly and explicitly identified tense ambiguity correctly and supplied context-sensitive English tense. One or two translations still overcommitted to past tense, but awareness is now a strength."
       ]
     },
     "sequence-xian-zai-ranhou-yihou": {
       "label": "Sequencing with 先…再… / 然后 / 以后",
-      "status": "learning",
+      "status": "productive",
       "first_seen": "2026-10-02",
-      "last_seen": "2026-10-03",
+      "last_seen": "2026-10-08",
       "recognition": {
-        "correct": 11,
-        "incorrect": 2
+        "correct": 27,
+        "incorrect": 4
       },
       "production": {
         "correct": 0,
@@ -176,7 +182,8 @@
       "recurring_errors": [
         "先 was unknown on first encounter.",
         "再 was unknown on first encounter.",
-        "下班以后 was omitted from two otherwise-correct translations before later being handled correctly."
+        "下班以后 was omitted from two otherwise-correct translations before later being handled correctly.",
+        "One 以前 sentence was reversed as 'after' on 2026-10-04."
       ],
       "example_patterns": [
         "X 以后 Y = after X, Y",
@@ -186,7 +193,296 @@
       "notes": [
         "Learner explicitly asked how 然后 differs from 以后 and then applied the distinction correctly.",
         "先…再… was learned quickly after explanation and is now usually recognized correctly.",
-        "Continue mixing all three patterns without isolated drilling."
+        "Continue mixing all three patterns without isolated drilling.",
+        "2026-10-04–08: 先…再…, 然后, and 以后 are now strong. New weakness is specifically 以前 vs 以后 rather than general sequencing."
+      ]
+    },
+    "before-after-yiqian-yihou": {
+      "label": "以前 vs 以后 for before/after",
+      "status": "learning",
+      "first_seen": "2026-10-04",
+      "last_seen": "2026-10-08",
+      "recognition": {
+        "correct": 6,
+        "incorrect": 1
+      },
+      "production": {
+        "correct": 0,
+        "incorrect": 0
+      },
+      "recurring_errors": [
+        "Reversed 睡觉以前 as 'after going to bed' once after initially understanding it correctly."
+      ],
+      "example_patterns": [
+        "X 以前 = before X",
+        "X 以后 = after X"
+      ],
+      "notes": [
+        "Improving quickly; later contrasts were correct. Keep in mixed-context review rather than isolated memorization."
+      ]
+    },
+    "result-complement-wan": {
+      "label": "Result complement 完 for completed actions",
+      "status": "learning",
+      "first_seen": "2026-10-04",
+      "last_seen": "2026-10-08",
+      "recognition": {
+        "correct": 8,
+        "incorrect": 1
+      },
+      "production": {
+        "correct": 0,
+        "incorrect": 0
+      },
+      "recurring_errors": [
+        "完 was unknown on first explicit encounter in 吃完早饭."
+      ],
+      "example_patterns": [
+        "吃完 = finish eating",
+        "做完 = finish doing",
+        "看完 = finish reading/watching"
+      ],
+      "notes": [
+        "Learner now clearly distinguishes plain 做 from 做完 and explicitly notices when a sentence does not promise future completion."
+      ]
+    },
+    "potential-complements": {
+      "label": "Potential complements with 得/不 between verb and result",
+      "status": "learning",
+      "first_seen": "2026-10-04",
+      "last_seen": "2026-10-08",
+      "recognition": {
+        "correct": 4,
+        "incorrect": 1
+      },
+      "production": {
+        "correct": 0,
+        "incorrect": 0
+      },
+      "recurring_errors": [
+        "First 做不完 was interpreted as merely 'not finished' rather than 'cannot finish'."
+      ],
+      "example_patterns": [
+        "做得完 = be able to finish",
+        "做不完 = be unable to finish"
+      ],
+      "notes": [
+        "After explanation, 做不完 was recognized correctly in later sentences. Continue with familiar verbs before broadening."
+      ]
+    },
+    "modal-contrast": {
+      "label": "不用 / 不能 / 可以 / 要 / 还要 / 只能 modal contrast",
+      "status": "learning",
+      "first_seen": "2026-10-04",
+      "last_seen": "2026-10-08",
+      "recognition": {
+        "correct": 12,
+        "incorrect": 2
+      },
+      "production": {
+        "correct": 0,
+        "incorrect": 0
+      },
+      "recurring_errors": [
+        "还要工作 was once misread as 'don't have to work'.",
+        "只能 was unknown on first encounter."
+      ],
+      "example_patterns": [
+        "不用 = don't have to",
+        "不能 = can't",
+        "可以 = can/may",
+        "还要 = still have to",
+        "只能 = can only"
+      ],
+      "notes": [
+        "Core 不用/不能/可以 contrast is strong. 还要 and 只能 are newer but improving rapidly."
+      ]
+    },
+    "shenme-dou-negative": {
+      "label": "什么…都不… for 'not ... anything/anywhere'",
+      "status": "learning",
+      "first_seen": "2026-10-04",
+      "last_seen": "2026-10-08",
+      "recognition": {
+        "correct": 4,
+        "incorrect": 1
+      },
+      "production": {
+        "correct": 0,
+        "incorrect": 0
+      },
+      "recurring_errors": [
+        "什么都不想做 was not parsed on first encounter."
+      ],
+      "example_patterns": [
+        "什么都不想做 = don't want to do anything",
+        "什么地方都不想去 = don't want to go anywhere"
+      ],
+      "notes": [
+        "After one miss, learner translated several variants correctly and understood the role of 地方."
+      ]
+    },
+    "measure-word-jian": {
+      "label": "Number + 件 + 事情 measure-word pattern",
+      "status": "learning",
+      "first_seen": "2026-10-04",
+      "last_seen": "2026-10-08",
+      "recognition": {
+        "correct": 6,
+        "incorrect": 1
+      },
+      "production": {
+        "correct": 0,
+        "incorrect": 0
+      },
+      "recurring_errors": [
+        "两件 was unknown on first encounter."
+      ],
+      "example_patterns": [
+        "一件事情 = one thing/task",
+        "两件事情 = two things/tasks",
+        "五件事情 = five things/tasks"
+      ],
+      "notes": [
+        "Recognition improved immediately and remained correct in later numbered-task sentences."
+      ]
+    },
+    "jiu-condition-sequence": {
+      "label": "就 for tight condition/result sequencing",
+      "status": "learning",
+      "first_seen": "2026-10-04",
+      "last_seen": "2026-10-08",
+      "recognition": {
+        "correct": 2,
+        "incorrect": 1
+      },
+      "production": {
+        "correct": 0,
+        "incorrect": 0
+      },
+      "recurring_errors": [
+        "Initially unknown; later inserted 'can' into 就出去 even though 可以 was absent."
+      ],
+      "example_patterns": [
+        "做完以后就可以回家 = once finished, can go home",
+        "做完以后就出去 = once finished, go out"
+      ],
+      "notes": [
+        "Learner understands the 'once X, then Y' force but should keep 就 distinct from 可以."
+      ]
+    },
+    "de-manner-complement": {
+      "label": "Verb + 得 + description",
+      "status": "learning",
+      "first_seen": "2026-10-04",
+      "last_seen": "2026-10-08",
+      "recognition": {
+        "correct": 2,
+        "incorrect": 0
+      },
+      "production": {
+        "correct": 0,
+        "incorrect": 0
+      },
+      "recurring_errors": [],
+      "example_patterns": [
+        "睡得太晚 = sleep/go to bed too late",
+        "工作得很累 = work to the point of being very tired"
+      ],
+      "notes": [
+        "Meaning was captured naturally in English; formal structure is still new."
+      ]
+    },
+    "tai-le-degree": {
+      "label": "太…了 degree construction",
+      "status": "learning",
+      "first_seen": "2026-10-04",
+      "last_seen": "2026-10-08",
+      "recognition": {
+        "correct": 4,
+        "incorrect": 0
+      },
+      "production": {
+        "correct": 0,
+        "incorrect": 0
+      },
+      "recurring_errors": [],
+      "example_patterns": [
+        "太累了 = too/really tired",
+        "事情太多了 = there are too many things"
+      ],
+      "notes": [
+        "Learner correctly noticed that natural English may render 太 as 'very/really' rather than literal 'too' depending on context."
+      ]
+    },
+    "benlai-contrast": {
+      "label": "本来 for original intention/state contrasted with reality",
+      "status": "learning",
+      "first_seen": "2026-10-04",
+      "last_seen": "2026-10-08",
+      "recognition": {
+        "correct": 2,
+        "incorrect": 1
+      },
+      "production": {
+        "correct": 0,
+        "incorrect": 0
+      },
+      "recurring_errors": [
+        "本来 looked familiar but was not recalled on first encounter."
+      ],
+      "example_patterns": [
+        "本来想今天都做完 = originally wanted to finish everything today"
+      ],
+      "notes": [
+        "Subsequent sentence was translated correctly; keep paired with 但是/可是-style contrast."
+      ]
+    },
+    "liu-dao-endpoint": {
+      "label": "留到 + time for leaving something until an endpoint",
+      "status": "learning",
+      "first_seen": "2026-10-04",
+      "last_seen": "2026-10-08",
+      "recognition": {
+        "correct": 1,
+        "incorrect": 1
+      },
+      "production": {
+        "correct": 0,
+        "incorrect": 0
+      },
+      "recurring_errors": [
+        "留 and 到 were both uncertain on first encounter; 到 was guessed to mean completion."
+      ],
+      "example_patterns": [
+        "留到明天 = leave until tomorrow",
+        "留到明天再做 = leave it until tomorrow and do it then"
+      ],
+      "notes": [
+        "Learner now distinguishes endpoint 到 from completion 完 and explicitly noticed 再做 does not imply 做完."
+      ]
+    },
+    "de-nominalization-rest": {
+      "label": "的 nominalization in 剩下的",
+      "status": "learning",
+      "first_seen": "2026-10-04",
+      "last_seen": "2026-10-08",
+      "recognition": {
+        "correct": 2,
+        "incorrect": 1
+      },
+      "production": {
+        "correct": 0,
+        "incorrect": 0
+      },
+      "recurring_errors": [
+        "剩下的 was uncertain on first encounter."
+      ],
+      "example_patterns": [
+        "剩下的 = the remaining ones / the rest"
+      ],
+      "notes": [
+        "Recognized correctly on the next occurrence."
       ]
     }
   },
