@@ -3,7 +3,7 @@
   "learner_state": {
     "level": "beginner; recognition stronger than production",
     "baseline_assessed": true,
-    "last_session": "2026-10-03"
+    "last_session": "2026-10-08"
   },
   "goals": [
     "conversational Mandarin",
@@ -37,21 +37,26 @@
     "session_balance": "mix review, weak areas, and new material"
   },
   "current_focus": [
-    "expanding daily-routine vocabulary while keeping familiar sentence structures",
-    "sequencing with 先…再…, 然后, and 以后",
-    "using time words/context to interpret present vs past rather than imposing English tense",
-    "keeping weekdays and frequency expressions in incidental spaced review",
-    "gradually introducing 1–2 new vocabulary items at a time"
+    "consolidate recently introduced vocabulary without adding a new expansion batch",
+    "以前 vs 以后 in mixed sequencing contexts",
+    "result and potential complements: 完, 做完, 做不完",
+    "modal contrasts: 不用, 不能, 可以, 还要, 只能",
+    "measure words and task expressions: 件, 事情, 剩下的",
+    "tight sequencing/condition links with 就 and endpoint constructions with 留到",
+    "continue using tense from context; this is now mostly a strength"
   ],
   "recurring_patterns": [
-    "Core sentence order and familiar daily-routine sentences are usually understood correctly.",
-    "Weekdays are mostly secure in context, but one 星期五→Wednesday slip occurred on 2026-10-03; continue incidental review.",
-    "有时候, 通常, 常常, 没有 vs 不用, and 所以 are now strong enough to use mainly as background material.",
-    "然后 is now reliably understood as then/after that and distinguished from 以后.",
-    "先…再… was learned quickly and is already being parsed correctly in multi-clause sentences.",
-    "Time-reference reasoning improved substantially: learner now explicitly notices when Mandarin leaves tense ambiguous and supplies English tense from context.",
-    "下班以后 was omitted from two translations, so keep it in rotation without over-drilling.",
-    "Character-level and literal structural breakdowns remain useful for learning new words and grammar."
+    "Core sentence order and multi-clause daily-routine sentences are usually understood correctly.",
+    "Time-reference reasoning is now a strength: learner routinely notices when Mandarin does not force English tense and asks about ambiguity appropriately.",
+    "先…再…, 然后, and 以后 are strong; the newer contrast 以前 vs 以后 had one reversal and should remain in rotation.",
+    "Result complement 完 is increasingly well understood, including the important distinction between 做 and 做完.",
+    "Potential complement 做不完 was initially read as simple non-completion, then correctly understood as inability to finish.",
+    "不用/不能/可以 are strong; 还要 and 只能 are newer and need lighter review.",
+    "什么…都不… was missed on first exposure but became reliable across anything/anywhere examples.",
+    "Measure word 件 was unknown initially and then learned quickly in 一/两/三/五件事情.",
+    "就 is understood as tightly linking events, but can still be conflated with modality such as 可以.",
+    "本来, 留到, 剩下的, and 办公室 remain comparatively weak because they have had few exposures.",
+    "Recognition is clearly ahead of production; most evidence still comes from Hanzi-to-English translation."
   ],
   "notes": [
     "Initial drill-based baseline is underway; not enough evidence yet for a precise overall level.",
@@ -64,6 +69,9 @@
     "2026-09-30: begin gradual vocabulary expansion, introducing only one or two genuinely new items at a time inside otherwise familiar sentence patterns.",
     "2026-10-01–03: planned vocabulary 餐厅, 咖啡店, 图书馆, 回家, 买, 学习, 开车, 然后, and 早上 moved from passive expansion list into active sentence practice.",
     "2026-10-02: learner explicitly distinguished 然后 from 以后 and learned 先 plus 再 as sequencing adverbs.",
-    "2026-10-03: next expansion batch added: 起床, 睡觉, 洗澡, 早饭, 午饭, 商店, 工作, 休息, 看电影, 中午."
+    "2026-10-03: next expansion batch added: 起床, 睡觉, 洗澡, 早饭, 午饭, 商店, 工作, 休息, 看电影, 中午.",
+    "2026-10-04–08: learner repeatedly volunteered correct observations about tense ambiguity, sequencing, and what was or was not explicitly encoded in the Mandarin.",
+    "2026-10-04–08: newer grammar expanded into 以前, 完/result complements, potential complements, modal contrasts, 什么…都不…, measure word 件, 就, 只能, 本来, and 留到.",
+    "2026-10-08: learner requested consolidation only; do not add a new future vocabulary batch until the current material is more stable."
   ]
 }
