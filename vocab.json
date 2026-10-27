@@ -59,7 +59,7 @@
       ],
       "status": "learning",
       "first_seen": "2026-09-27",
-      "last_seen": "2026-09-28",
+      "last_seen": "2026-10-27",
       "last_production_test": null,
       "recognition": {
         "correct": 3,
@@ -70,7 +70,8 @@
         "incorrect": 0
       },
       "notes": [
-        "Unknown in 我妹妹不喜欢吃辣的东西。"
+        "Unknown in 我妹妹不喜欢吃辣的东西。",
+        "2026-10-27: Once confused with 哥哥, then recognized correctly."
       ],
       "tags": [
         "family"
@@ -316,9 +317,9 @@
       "meanings": [
         "sometimes"
       ],
-      "status": "learning",
+      "status": "productive",
       "first_seen": "2026-09-27",
-      "last_seen": "2026-09-30",
+      "last_seen": "2026-10-27",
       "last_production_test": null,
       "recognition": {
         "correct": 8,
@@ -331,7 +332,8 @@
       "notes": [
         "Unknown in 我有时候下班以后去健身房。",
         "2026-09-28: improving; sometimes still confused with 通常.",
-        "2026-09-29–30: recognized correctly in several varied weekday sentences."
+        "2026-09-29–30: recognized correctly in several varied weekday sentences.",
+        "2026-10-27: Consistently recognized 'sometimes' in recent exercises."
       ],
       "tags": [
         "frequency"
@@ -372,7 +374,7 @@
       ],
       "status": "productive",
       "first_seen": "2026-09-27",
-      "last_seen": "2026-10-08",
+      "last_seen": "2026-10-27",
       "last_production_test": null,
       "recognition": {
         "correct": 16,
@@ -384,7 +386,8 @@
       },
       "notes": [
         "Correctly understood in 下班以后.",
-        "2026-10-04–08: generally strong; correctly contrasted with 以前 and used with result complements."
+        "2026-10-04–08: generally strong; correctly contrasted with 以前 and used with result complements.",
+        "2026-10-27: Correctly understood after."
       ],
       "tags": [
         "time"
@@ -423,7 +426,7 @@
       ],
       "status": "productive",
       "first_seen": "2026-09-27",
-      "last_seen": "2026-10-08",
+      "last_seen": "2026-10-27",
       "last_production_test": null,
       "recognition": {
         "correct": 14,
@@ -437,7 +440,8 @@
         "Sentence containing 通常 was not understood.",
         "2026-09-28: improving; occasionally translated as often/sometimes instead of usually.",
         "2026-09-29–30: one early 'sometimes' error, then repeatedly recognized as usually.",
-        "2026-10-04–06: recognized correctly in routine sentences."
+        "2026-10-04–06: recognized correctly in routine sentences.",
+        "2026-10-27: Consistently recognized 'usually' in recent exercises."
       ],
       "tags": [
         "frequency"
@@ -572,9 +576,9 @@
       "meanings": [
         "together"
       ],
-      "status": "productive",
+      "status": "shaky",
       "first_seen": "2026-09-27",
-      "last_seen": "2026-09-27",
+      "last_seen": "2026-10-27",
       "last_production_test": null,
       "recognition": {
         "correct": 1,
@@ -584,7 +588,9 @@
         "correct": 0,
         "incorrect": 0
       },
-      "notes": [],
+      "notes": [
+        "2026-10-27: Explicitly forgot 一起 on 2026-10-27; review 'together'."
+      ],
       "tags": [
         "common"
       ]
@@ -1296,7 +1302,7 @@
       ],
       "status": "productive",
       "first_seen": "2026-10-02",
-      "last_seen": "2026-10-08",
+      "last_seen": "2026-10-27",
       "last_production_test": null,
       "recognition": {
         "correct": 19,
@@ -1309,7 +1315,8 @@
       "notes": [
         "2026-10-02: initially unknown; learned as an adverb marking the first step in a sequence.",
         "2026-10-02–03: quickly became reliable in 先…然后… and 先…再… patterns.",
-        "2026-10-04–08: 先 is now routinely recognized as first in multi-step sequences."
+        "2026-10-04–08: 先 is now routinely recognized as first in multi-step sequences.",
+        "2026-10-27: Correct sequencing in recent translations."
       ],
       "tags": [
         "sequence",
@@ -1326,7 +1333,7 @@
       ],
       "status": "productive",
       "first_seen": "2026-10-02",
-      "last_seen": "2026-10-08",
+      "last_seen": "2026-10-27",
       "last_production_test": null,
       "recognition": {
         "correct": 16,
@@ -1339,7 +1346,8 @@
       "notes": [
         "2026-10-02: initially unknown in 先…再…; learned the sequencing meaning 'then/next'.",
         "Also means 'again' in other contexts; sequencing use is current focus.",
-        "2026-10-04–08: sequencing/later sense is now strong; learner also notices when 再 does not imply completion."
+        "2026-10-04–08: sequencing/later sense is now strong; learner also notices when 再 does not imply completion.",
+        "2026-10-27: Correctly understood 'then/later'."
       ],
       "tags": [
         "sequence",
@@ -1353,9 +1361,9 @@
         "get up",
         "get out of bed"
       ],
-      "status": "productive",
+      "status": "learning",
       "first_seen": "2026-10-03",
-      "last_seen": "2026-10-08",
+      "last_seen": "2026-10-27",
       "last_production_test": null,
       "recognition": {
         "correct": 3,
@@ -1367,7 +1375,8 @@
       },
       "notes": [
         "2026-10-03: added as a planned expansion item; introduce gradually, usually 1–2 at a time.",
-        "2026-10-04–05: recognized correctly in morning-routine and 起床以后 sentences."
+        "2026-10-04–05: recognized correctly in morning-routine and 起床以后 sentences.",
+        "2026-10-27: Asked about the meaning of 起 in 起床, 起来 and 一起."
       ],
       "tags": [
         "daily-routine",
@@ -1620,9 +1629,9 @@
         "before",
         "previously"
       ],
-      "status": "learning",
+      "status": "productive",
       "first_seen": "2026-10-04",
-      "last_seen": "2026-10-08",
+      "last_seen": "2026-10-27",
       "last_production_test": null,
       "recognition": {
         "correct": 4,
@@ -1633,7 +1642,8 @@
         "incorrect": 0
       },
       "notes": [
-        "2026-10-04: learned X 以前 = before X; one later sentence reversed it as 'after', followed by correct uses."
+        "2026-10-04: learned X 以前 = before X; one later sentence reversed it as 'after', followed by correct uses.",
+        "2026-10-27: Correctly understood past routines."
       ],
       "tags": [
         "time",
@@ -1773,9 +1783,9 @@
         "immediately",
         "right away"
       ],
-      "status": "productive",
+      "status": "learning",
       "first_seen": "2026-10-04",
-      "last_seen": "2026-10-08",
+      "last_seen": "2026-10-27",
       "last_production_test": null,
       "recognition": {
         "correct": 5,
@@ -1786,7 +1796,8 @@
         "incorrect": 0
       },
       "notes": [
-        "2026-10-05: learner correctly inferred right away and distinguished it from 'quickly'."
+        "2026-10-05: learner correctly inferred right away and distinguished it from 'quickly'.",
+        "2026-10-27: Initially confused with 直接; later understood correctly."
       ],
       "tags": [
         "time",
@@ -1799,9 +1810,9 @@
         "finish",
         "complete"
       ],
-      "status": "learning",
+      "status": "productive",
       "first_seen": "2026-10-04",
-      "last_seen": "2026-10-08",
+      "last_seen": "2026-10-27",
       "last_production_test": null,
       "recognition": {
         "correct": 8,
@@ -1812,7 +1823,8 @@
         "incorrect": 0
       },
       "notes": [
-        "2026-10-05–08: learned as a result complement in 吃完/做完/看完; now usually recognized correctly."
+        "2026-10-05–08: learned as a result complement in 吃完/做完/看完; now usually recognized correctly.",
+        "2026-10-27: Correctly understood 做完/没做完."
       ],
       "tags": [
         "result-complement"
@@ -2087,9 +2099,9 @@
         "task",
         "affair"
       ],
-      "status": "learning",
+      "status": "productive",
       "first_seen": "2026-10-04",
-      "last_seen": "2026-10-08",
+      "last_seen": "2026-10-27",
       "last_production_test": null,
       "recognition": {
         "correct": 10,
@@ -2100,7 +2112,8 @@
         "incorrect": 0
       },
       "notes": [
-        "2026-10-06–08: meaning clarified as non-physical thing/matter/task; subsequently recognized reliably in task-counting sentences."
+        "2026-10-06–08: meaning clarified as non-physical thing/matter/task; subsequently recognized reliably in task-counting sentences.",
+        "2026-10-27: Correctly understood tasks/things to do."
       ],
       "tags": [
         "common",
@@ -2165,9 +2178,9 @@
         "can only",
         "have no choice but to"
       ],
-      "status": "learning",
+      "status": "productive",
       "first_seen": "2026-10-04",
-      "last_seen": "2026-10-08",
+      "last_seen": "2026-10-27",
       "last_production_test": null,
       "recognition": {
         "correct": 4,
@@ -2178,7 +2191,8 @@
         "incorrect": 0
       },
       "notes": [
-        "2026-10-08: unknown on first encounter, then recognized correctly in subsequent task-limit sentences."
+        "2026-10-08: unknown on first encounter, then recognized correctly in subsequent task-limit sentences.",
+        "2026-10-27: Correctly understood 'can only'."
       ],
       "tags": [
         "modal",
@@ -2218,9 +2232,9 @@
         "at first",
         "initially"
       ],
-      "status": "learning",
+      "status": "productive",
       "first_seen": "2026-10-04",
-      "last_seen": "2026-10-08",
+      "last_seen": "2026-10-27",
       "last_production_test": null,
       "recognition": {
         "correct": 2,
@@ -2231,7 +2245,8 @@
         "incorrect": 0
       },
       "notes": [
-        "2026-10-08: looked familiar but was not recalled on first encounter; then correctly recognized in subsequent sentences."
+        "2026-10-08: looked familiar but was not recalled on first encounter; then correctly recognized in subsequent sentences.",
+        "2026-10-27: Recognized 'originally wanted' repeatedly."
       ],
       "tags": [
         "adverb",
@@ -2275,7 +2290,7 @@
       ],
       "status": "learning",
       "first_seen": "2026-10-04",
-      "last_seen": "2026-10-08",
+      "last_seen": "2026-10-27",
       "last_production_test": null,
       "recognition": {
         "correct": 1,
@@ -2286,7 +2301,8 @@
         "incorrect": 0
       },
       "notes": [
-        "2026-10-08: initially guessed as a completion complement; clarified as reaching an endpoint/result, as in 留到明天."
+        "2026-10-08: initially guessed as a completion complement; clarified as reaching an endpoint/result, as in 留到明天.",
+        "2026-10-27: Correctly interpreted 等到下午 as until afternoon."
       ],
       "tags": [
         "verb",
@@ -2315,6 +2331,222 @@
       ],
       "tags": [
         "time"
+      ]
+    },
+    "跟": {
+      "pinyin": "gēn",
+      "meanings": [
+        "with"
+      ],
+      "status": "shaky",
+      "first_seen": "2026-10-27",
+      "last_seen": "2026-10-27",
+      "last_production_test": null,
+      "recognition": {
+        "correct": 0,
+        "incorrect": 0
+      },
+      "production": {
+        "correct": 0,
+        "incorrect": 0
+      },
+      "notes": [
+        "2026-10-27: Explicitly forgotten; inferred correctly from context."
+      ],
+      "tags": [
+        "review"
+      ]
+    },
+    "直接": {
+      "pinyin": "zhíjiē",
+      "meanings": [
+        "directly; straight"
+      ],
+      "status": "learning",
+      "first_seen": "2026-10-27",
+      "last_seen": "2026-10-27",
+      "last_production_test": null,
+      "recognition": {
+        "correct": 0,
+        "incorrect": 0
+      },
+      "production": {
+        "correct": 0,
+        "incorrect": 0
+      },
+      "notes": [
+        "2026-10-27: Initially confused with 马上, then correctly distinguished."
+      ],
+      "tags": [
+        "review"
+      ]
+    },
+    "很久": {
+      "pinyin": "hěn jiǔ",
+      "meanings": [
+        "a long time"
+      ],
+      "status": "learning",
+      "first_seen": "2026-10-27",
+      "last_seen": "2026-10-27",
+      "last_production_test": null,
+      "recognition": {
+        "correct": 0,
+        "incorrect": 0
+      },
+      "production": {
+        "correct": 0,
+        "incorrect": 0
+      },
+      "notes": [
+        "2026-10-27: Once misinterpreted duration as working hard."
+      ],
+      "tags": [
+        "review"
+      ]
+    },
+    "等": {
+      "pinyin": "děng",
+      "meanings": [
+        "wait"
+      ],
+      "status": "productive",
+      "first_seen": "2026-10-27",
+      "last_seen": "2026-10-27",
+      "last_production_test": null,
+      "recognition": {
+        "correct": 0,
+        "incorrect": 0
+      },
+      "production": {
+        "correct": 0,
+        "incorrect": 0
+      },
+      "notes": [
+        "2026-10-27: Correctly interpreted waiting for a friend."
+      ],
+      "tags": [
+        "review"
+      ]
+    },
+    "才": {
+      "pinyin": "cái",
+      "meanings": [
+        "only then; not until"
+      ],
+      "status": "shaky",
+      "first_seen": "2026-10-27",
+      "last_seen": "2026-10-27",
+      "last_production_test": null,
+      "recognition": {
+        "correct": 0,
+        "incorrect": 0
+      },
+      "production": {
+        "correct": 0,
+        "incorrect": 0
+      },
+      "notes": [
+        "2026-10-27: Missed nuance of delay in 才来."
+      ],
+      "tags": [
+        "review"
+      ]
+    },
+    "能": {
+      "pinyin": "néng",
+      "meanings": [
+        "can; be able to"
+      ],
+      "status": "learning",
+      "first_seen": "2026-10-27",
+      "last_seen": "2026-10-27",
+      "last_production_test": null,
+      "recognition": {
+        "correct": 0,
+        "incorrect": 0
+      },
+      "production": {
+        "correct": 0,
+        "incorrect": 0
+      },
+      "notes": [
+        "2026-10-27: 才 能 confused with obligation."
+      ],
+      "tags": [
+        "review"
+      ]
+    },
+    "还是": {
+      "pinyin": "háishi",
+      "meanings": [
+        "still"
+      ],
+      "status": "learning",
+      "first_seen": "2026-10-27",
+      "last_seen": "2026-10-27",
+      "last_production_test": null,
+      "recognition": {
+        "correct": 0,
+        "incorrect": 0
+      },
+      "production": {
+        "correct": 0,
+        "incorrect": 0
+      },
+      "notes": [
+        "2026-10-27: Missed 'still' nuance in 还是没做完."
+      ],
+      "tags": [
+        "review"
+      ]
+    },
+    "哪里": {
+      "pinyin": "nǎlǐ",
+      "meanings": [
+        "where; anywhere"
+      ],
+      "status": "learning",
+      "first_seen": "2026-10-27",
+      "last_seen": "2026-10-27",
+      "last_production_test": null,
+      "recognition": {
+        "correct": 0,
+        "incorrect": 0
+      },
+      "production": {
+        "correct": 0,
+        "incorrect": 0
+      },
+      "notes": [
+        "2026-10-27: 哪里也没去 initially misread as didn't go there; later corrected."
+      ],
+      "tags": [
+        "review"
+      ]
+    },
+    "起来": {
+      "pinyin": "qǐlái",
+      "meanings": [
+        "rise; get up"
+      ],
+      "status": "learning",
+      "first_seen": "2026-10-27",
+      "last_seen": "2026-10-27",
+      "last_production_test": null,
+      "recognition": {
+        "correct": 0,
+        "incorrect": 0
+      },
+      "production": {
+        "correct": 0,
+        "incorrect": 0
+      },
+      "notes": [
+        "2026-10-27: Explained as related to 起; not tested."
+      ],
+      "tags": [
+        "review"
       ]
     }
   },
