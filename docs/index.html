@@ -1,0 +1,522 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#132c32">
+  <meta name="description" content="Mandarin flashcards with recognition, production, and portable JSON review progress.">
+  <title>Mandarin · Review</title>
+  <style>
+    :root {
+      color-scheme: dark;
+      --bg: #10262c;
+      --panel: #19363d;
+      --panel-2: #21444a;
+      --line: #376069;
+      --ink: #eef8f4;
+      --muted: #b3cece;
+      --accent: #bcf4c2;
+      --accent-ink: #103528;
+      --warn: #f3d09b;
+      --shadow: 0 18px 54px rgba(0, 0, 0, .21);
+    }
+    * { box-sizing: border-box; }
+    html { background: var(--bg); }
+    body {
+      margin: 0; min-height: 100dvh; color: var(--ink);
+      background: radial-gradient(ellipse at top, #214851 0, var(--bg) 60%);
+      font: 16px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      -webkit-font-smoothing: antialiased;
+    }
+    button, select, textarea { font: inherit; }
+    button { cursor: pointer; }
+    button:disabled { cursor: default; opacity: .55; }
+    .shell { max-width: 690px; margin: 0 auto; padding: 25px 17px max(26px, env(safe-area-inset-bottom)); }
+    header { display: flex; align-items: start; justify-content: space-between; gap: 12px; margin-bottom: 19px; }
+    .eyebrow { color: var(--accent); text-transform: uppercase; font-size: 11px; letter-spacing: .17em; font-weight: 800; }
+    h1 { font-size: clamp(25px, 6vw, 35px); line-height: 1.13; margin: 5px 0 5px; letter-spacing: -.035em; }
+    .subtitle { color: var(--muted); font-size: 13px; margin: 0; }
+    .dot { display: inline-block; height: 7px; width: 7px; border-radius: 100%; background: var(--warn); margin-right: 5px; }
+    #source { color: var(--muted); font-size: 12px; text-align: right; padding-top: 5px; max-width: 165px; }
+    .controls { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; }
+    label.field { font-weight: 700; color: var(--muted); font-size: 12px; }
+    select, textarea {
+      color: var(--ink); background: var(--panel); border: 1px solid var(--line);
+      border-radius: 12px; outline-offset: 3px;
+    }
+    select { width: 100%; padding: 11px 10px; margin-top: 4px; }
+    option { background: var(--bg); }
+    .toggle {
+      display: inline-flex; align-items: center; gap: 8px;
+      font-size: 13px; color: var(--muted); margin-top: 12px; user-select: none;
+    }
+    .toggle input { accent-color: var(--accent); width: 18px; height: 18px; }
+    .stats { display: grid; grid-template-columns: repeat(3, 1fr); gap: 9px; margin: 17px 0 13px; }
+    .stat { background: rgba(25,54,61,.73); padding: 10px; border-radius: 12px; border: 1px solid rgba(92,148,149,.22); }
+    .stat b { display: block; font-size: 23px; font-variant-numeric: tabular-nums; line-height: 1.2; }
+    .stat span { font-size: 11px; color: var(--muted); }
+    .card {
+      min-height: min(415px, 52dvh); background: var(--panel);
+      border: 1px solid var(--line); border-radius: 24px; box-shadow: var(--shadow);
+      position: relative; width: 100%; padding: 27px 22px 24px;
+      display: flex; flex-direction: column; justify-content: center; align-items: center;
+      text-align: center; color: inherit; -webkit-tap-highlight-color: transparent;
+      transition: background .18s ease, border-color .18s ease;
+    }
+    .card:active { background: #20434a; }
+    .card[aria-disabled="true"] { cursor: default; }
+    .card-top { position: absolute; top: 18px; left: 19px; right: 19px;
+      display: flex; justify-content: space-between; gap: 8px;
+      color: var(--muted); font-size: 11px; letter-spacing: .03em; }
+    .pill { border: 1px solid var(--line); padding: 3px 9px; border-radius: 50px; }
+    .prompt { font-size: clamp(37px, 9vw, 61px); line-height: 1.27;
+      font-weight: 600; overflow-wrap: anywhere; letter-spacing: .015em; }
+    .prompt.english { font-size: clamp(25px, 6vw, 39px); line-height: 1.34; font-weight: 600; letter-spacing: -.02em; }
+    .hint { color: var(--muted); font-size: 13px; margin-top: 13px; }
+    .answer { margin-top: 27px; padding-top: 24px; border-top: 1px solid var(--line); width: 100%; }
+    .answer-main { font-size: clamp(22px, 5vw, 30px); line-height: 1.35; font-weight: 650; overflow-wrap: anywhere; }
+    .answer-main.hanzi { font-size: clamp(31px, 8vw, 45px); }
+    .pinyin { font-size: 18px; color: var(--accent); margin-top: 8px; }
+    .detail { color: var(--muted); font-size: 13px; margin-top: 8px; }
+    [hidden] { display: none !important; }
+    .ratings { display: grid; grid-template-columns: repeat(4, 1fr); gap: 8px; margin-top: 12px; }
+    .rating { padding: 13px 4px; border: 1px solid var(--line); border-radius: 12px;
+      color: var(--ink); background: var(--panel-2); font-size: 13px; font-weight: 700; }
+    .rating.again { color: #ffc6b8; }
+    .rating.easy { color: var(--accent); }
+    .instruction { text-align: center; font-size: 12px; color: var(--muted); margin: 12px 0 20px; min-height: 18px; }
+    .primary, .secondary { border-radius: 12px; border: 1px solid var(--line);
+      padding: 11px 15px; font-size: 14px; font-weight: 750; }
+    .primary { color: var(--accent-ink); background: var(--accent); border-color: var(--accent); }
+    .secondary { background: var(--panel-2); color: var(--ink); }
+    .action-row { display: flex; flex-wrap: wrap; gap: 9px; }
+    .sync { margin-top: 25px; padding: 17px; border: 1px solid var(--line); border-radius: 17px; background: rgba(25,54,61,.68); }
+    .sync h2 { font-size: 17px; margin: 0 0 4px; }
+    .sync p { color: var(--muted); font-size: 12px; margin: 0 0 13px; }
+    .sync .action-row button { flex: 1 1 auto; }
+    .notice { font-size: 12px; color: var(--accent); min-height: 18px; margin-top: 11px; overflow-wrap: anywhere; }
+    .panel { margin-top: 13px; }
+    textarea { resize: vertical; width: 100%; min-height: 125px; padding: 11px; font: 12px/1.5 ui-monospace, SFMono-Regular, Menlo, monospace; }
+    .panel button { margin-top: 8px; }
+    details { border-top: 1px solid var(--line); margin-top: 15px; padding-top: 12px; }
+    summary { cursor: pointer; color: var(--muted); font-size: 13px; }
+    footer { color: var(--muted); font-size: 11px; text-align: center; margin-top: 21px; }
+    a { color: var(--accent); }
+    @media (max-width: 370px) {
+      .shell { padding-left: 11px; padding-right: 11px; }
+      .card { min-height: 360px; padding-left: 16px; padding-right: 16px; }
+      .rating { font-size: 12px; }
+    }
+    @media (prefers-reduced-motion: reduce) { * { transition: none !important; } }
+  </style>
+</head>
+<body>
+<main class="shell">
+  <header>
+    <div>
+      <div class="eyebrow">Learn · Recall · Repeat</div>
+      <h1>Mandarin <span lang="zh-Hans">汉语</span></h1>
+      <p class="subtitle">Your learning record, one card at a time.</p>
+    </div>
+    <div id="source"><span class="dot"></span>Loading record…</div>
+  </header>
+
+  <section class="controls" aria-label="Study settings">
+    <label class="field" for="direction">Practice direction
+      <select id="direction">
+        <option value="recognition">Hanzi → English</option>
+        <option value="production">English → Hanzi</option>
+      </select>
+    </label>
+    <label class="field" for="category">Cards
+      <select id="category">
+        <option value="all">Vocabulary + grammar</option>
+        <option value="vocab">Vocabulary only</option>
+        <option value="grammar">Grammar only</option>
+      </select>
+    </label>
+  </section>
+  <label class="toggle"><input id="due-only" type="checkbox" checked> Review due cards only (spaced repetition)</label>
+
+  <section class="stats" aria-label="Review summary">
+    <div class="stat"><b id="due-count">—</b><span>Due in this mode</span></div>
+    <div class="stat"><b id="studied-count">0</b><span>Reviewed this session</span></div>
+    <div class="stat"><b id="pending-count">0</b><span>Unsynced reviews</span></div>
+  </section>
+
+  <button type="button" class="card" id="card" aria-label="Reveal flashcard answer" aria-disabled="true">
+    <span class="card-top"><span id="type-badge" class="pill">Vocabulary</span><span id="mastery-badge" class="pill">Loading</span></span>
+    <span id="front" class="prompt">加载中…</span>
+    <span id="hint" class="hint">Loading your progress…</span>
+    <span id="answer" class="answer" hidden>
+      <span id="answer-main" class="answer-main"></span>
+      <span id="pinyin" class="pinyin"></span>
+      <span id="detail" class="detail"></span>
+    </span>
+  </button>
+
+  <div id="ratings" class="ratings" hidden aria-label="Rate your recall">
+    <button type="button" class="rating again" data-rating="again">Again</button>
+    <button type="button" class="rating" data-rating="hard">Hard</button>
+    <button type="button" class="rating" data-rating="good">Good</button>
+    <button type="button" class="rating easy" data-rating="easy">Easy</button>
+  </div>
+  <p class="instruction" id="instruction">Tap the card to reveal the answer.</p>
+  <div id="ahead-row" class="action-row" hidden><button type="button" class="secondary" id="ahead-button">Study ahead anyway</button></div>
+
+  <section class="sync" aria-label="Progress synchronization">
+    <h2>Keep ChatGPT in sync</h2>
+    <p>Reviews stay on this device until you export them. Copy only unsynced reviews to paste into a Mandarin chat; the complete learning record remains in GitHub.</p>
+    <div class="action-row">
+      <button type="button" class="primary" id="copy-updates">Copy progress JSON</button>
+      <button type="button" class="secondary" id="refresh">Refresh from GitHub</button>
+    </div>
+    <p class="notice" id="notice" role="status" aria-live="polite"></p>
+    <details>
+      <summary>Import progress or back up your complete record</summary>
+      <div class="panel">
+        <p>Paste a progress export from another device, or a complete progress.json snapshot. Reviews are merged by unique ID, not replaced.</p>
+        <textarea id="import-text" spellcheck="false" autocapitalize="off" autocomplete="off" placeholder='Paste exported JSON here…'></textarea>
+        <div class="action-row">
+          <button type="button" class="secondary" id="import-button">Import and merge</button>
+          <button type="button" class="secondary" id="copy-full">Copy full snapshot</button>
+        </div>
+      </div>
+    </details>
+  </section>
+  <footer>All processing runs in your browser. No logins, trackers, or external libraries.</footer>
+</main>
+
+<script>
+(function () {
+  "use strict";
+
+  var STORAGE_KEY = "mandarin-flashcards-v1";
+  var DAY = 86400000;
+  var base = null;
+  var reviews = [];
+  var current = null;
+  var revealed = false;
+  var recent = [];
+  var sessionCount = 0;
+  var memoryOnly = false;
+
+  function el(id) { return document.getElementById(id); }
+  function say(message, isError) {
+    el("notice").textContent = message;
+    el("notice").style.color = isError ? "#ffc6b8" : "var(--accent)";
+  }
+  function isObject(value) { return value !== null && typeof value === "object" && !Array.isArray(value); }
+  function validateSnapshot(data) {
+    if (!isObject(data) || data.schema_version !== 1 ||
+        !isObject(data.vocab) || !isObject(data.vocab.items) ||
+        !isObject(data.grammar) || !isObject(data.grammar.items) ||
+        !isObject(data.learner) ||
+        (data.review_log !== undefined && !Array.isArray(data.review_log))) {
+      throw new Error("Not a supported Mandarin progress.json snapshot.");
+    }
+    return data;
+  }
+  function validReview(r) {
+    return isObject(r) && typeof r.id === "string" && r.id.length > 0 &&
+      (r.type === "vocab" || r.type === "grammar") &&
+      typeof r.key === "string" &&
+      (r.direction === "recognition" || r.direction === "production") &&
+      ["again", "hard", "good", "easy"].indexOf(r.rating) !== -1 &&
+      typeof r.at === "string" && Number.isFinite(Date.parse(r.at));
+  }
+  function mergeReviews() {
+    var seen = new Map();
+    Array.prototype.forEach.call(arguments, function (part) {
+      if (!Array.isArray(part)) return;
+      part.forEach(function (r) { if (validReview(r) && !seen.has(r.id)) seen.set(r.id, r); });
+    });
+    return Array.from(seen.values()).sort(function (a, b) {
+      return Date.parse(a.at) - Date.parse(b.at) || a.id.localeCompare(b.id);
+    });
+  }
+  function pendingReviews() {
+    var shipped = new Set((base && base.review_log || []).filter(validReview).map(function (r) { return r.id; }));
+    return reviews.filter(function (r) { return !shipped.has(r.id); });
+  }
+  function persist() {
+    try {
+      localStorage.setItem(STORAGE_KEY, JSON.stringify({ snapshot: base, reviews: reviews }));
+    } catch (err) {
+      if (!memoryOnly) say("Browser storage is unavailable. Export your reviews before leaving this page.", true);
+      memoryOnly = true;
+    }
+  }
+  function takeSnapshot(data) {
+    validateSnapshot(data);
+    reviews = mergeReviews(reviews, data.review_log);
+    var oldDate = base ? Date.parse(base.updated_at || 0) || 0 : -1;
+    var newDate = Date.parse(data.updated_at || 0) || 0;
+    if (!base || newDate >= oldDate) base = data;
+    persist();
+    updateSource();
+    showNext();
+  }
+  function updateSource() {
+    var count = Object.keys(base.vocab.items).length + Object.keys(base.grammar.items).length;
+    var date = (base.updated_at || "").slice(0, 10);
+    el("source").textContent = count + " concepts · " + (date || "local record");
+  }
+  function getCards() {
+    if (!base) return [];
+    var category = el("category").value;
+    var cards = [];
+    if (category !== "grammar") {
+      Object.keys(base.vocab.items).forEach(function (key) {
+        var item = base.vocab.items[key];
+        if (!item || !Array.isArray(item.meanings) || !item.meanings.length) return;
+        cards.push({
+          type: "vocab", key: key, status: item.status || "new",
+          hanzi: key, english: item.meanings.join("; "), pinyin: item.pinyin || "",
+          detail: (item.tags || []).join(" · "), record: item
+        });
+      });
+    }
+    if (category !== "vocab") {
+      Object.keys(base.grammar.items).forEach(function (key) {
+        var item = base.grammar.items[key];
+        if (!item) return;
+        var pattern = (item.example_patterns || []).find(function (p) { return typeof p === "string" && p.includes("="); }) || "";
+        var separator = pattern.indexOf("=");
+        var hanzi = separator > 0 ? pattern.slice(0, separator).trim() : item.label;
+        var english = separator > 0 ? pattern.slice(separator + 1).trim() : item.label;
+        if (!hanzi || !english) return;
+        cards.push({
+          type: "grammar", key: key, status: item.status || "new",
+          hanzi: hanzi, english: english, pinyin: "",
+          detail: item.label || "", record: item
+        });
+      });
+    }
+    return cards;
+  }
+  function forCard(card) {
+    return reviews.filter(function (r) {
+      return r.type === card.type && r.key === card.key && r.direction === el("direction").value;
+    });
+  }
+  function schedule(card) {
+    var history = forCard(card);
+    var streak = 0;
+    var interval = 0;
+    var due = 0;
+    history.forEach(function (r) {
+      if (r.rating === "again") { streak = 0; interval = 10 / 1440; }
+      if (r.rating === "hard") { streak = Math.max(0, streak); interval = 1; }
+      if (r.rating === "good") {
+        streak += 1;
+        interval = interval < 1 ? 1 : Math.min(180, Math.max(2, Math.round(interval * 2.3)));
+      }
+      if (r.rating === "easy") {
+        streak += 1;
+        interval = interval < 1 ? 3 : Math.min(180, Math.max(4, Math.round(interval * 3)));
+      }
+      due = Date.parse(r.at) + interval * DAY;
+    });
+    return { due: due, seen: history.length, streak: streak };
+  }
+  function priority(card, itemSchedule) {
+    var weights = { shaky: 6, learning: 5, new: 4.5, productive: 2.7, solid: 1.4 };
+    var counts = card.record[el("direction").value] || {};
+    var wrong = Number(counts.incorrect) || 0;
+    var right = Number(counts.correct) || 0;
+    var difficulty = 2 * (wrong + 1) / (right + wrong + 2);
+    var overdue = itemSchedule.seen ? Math.min(3, Math.max(0, (Date.now() - itemSchedule.due) / DAY / 7)) : 1;
+    return (weights[card.status] || 3) + difficulty + overdue;
+  }
+  function updateStats(cards) {
+    var due = cards.filter(function (c) { return schedule(c).due <= Date.now(); }).length;
+    el("due-count").textContent = String(due);
+    el("studied-count").textContent = String(sessionCount);
+    el("pending-count").textContent = String(pendingReviews().length);
+    return due;
+  }
+  function showNext() {
+    current = null;
+    revealed = false;
+    el("answer").hidden = true;
+    el("ratings").hidden = true;
+    el("ahead-row").hidden = true;
+    el("card").setAttribute("aria-disabled", "true");
+    if (!base) return;
+    var cards = getCards();
+    updateStats(cards);
+    var eligible = el("due-only").checked ? cards.filter(function (c) {
+      return schedule(c).due <= Date.now();
+    }) : cards;
+    if (!eligible.length) {
+      el("type-badge").textContent = "All caught up";
+      el("mastery-badge").textContent = "✓";
+      el("front").textContent = cards.length ? "做得好！" : "No cards";
+      el("front").className = "prompt";
+      el("hint").textContent = cards.length ? "Nothing is due right now." : "Try another filter.";
+      el("instruction").textContent = cards.length ? "Come back for your next review, or study ahead." : "No matching cards.";
+      el("ahead-row").hidden = !cards.length;
+      return;
+    }
+    var nonrecent = eligible.filter(function (c) { return recent.indexOf(c.type + ":" + c.key + ":" + el("direction").value) < 0; });
+    if (nonrecent.length) eligible = nonrecent;
+    var weighted = eligible.map(function (c) { return { card: c, weight: priority(c, schedule(c)) }; });
+    var total = weighted.reduce(function (sum, x) { return sum + x.weight; }, 0);
+    var choice = Math.random() * total;
+    current = weighted[weighted.length - 1].card;
+    weighted.some(function (entry) {
+      choice -= entry.weight;
+      if (choice <= 0) { current = entry.card; return true; }
+      return false;
+    });
+    el("card").setAttribute("aria-disabled", "false");
+    el("type-badge").textContent = current.type === "vocab" ? "Vocabulary" : "Grammar";
+    el("mastery-badge").textContent = current.status;
+    var production = el("direction").value === "production";
+    el("front").textContent = production ? current.english : current.hanzi;
+    el("front").className = "prompt" + (production ? " english" : "");
+    el("answer-main").textContent = production ? current.hanzi : current.english;
+    el("answer-main").className = "answer-main" + (production ? " hanzi" : "");
+    el("pinyin").textContent = current.pinyin;
+    el("pinyin").hidden = !current.pinyin;
+    el("detail").textContent = current.detail;
+    el("detail").hidden = !current.detail;
+    el("hint").textContent = "Tap to reveal";
+    el("instruction").textContent = "Reveal the answer, then rate how well you recalled it.";
+  }
+  function reveal() {
+    if (!current || revealed) return;
+    revealed = true;
+    el("answer").hidden = false;
+    el("ratings").hidden = false;
+    el("hint").textContent = "";
+    el("instruction").textContent = "Again = missed · Hard = difficult · Good = recalled · Easy = effortless";
+    el("card").setAttribute("aria-label", "Flashcard answer revealed");
+  }
+  function rate(rating) {
+    if (!current || !revealed) return;
+    var id = (typeof crypto !== "undefined" && crypto.randomUUID) ? crypto.randomUUID() :
+      Date.now() + "-" + Math.random().toString(36).slice(2);
+    reviews = mergeReviews(reviews, [{
+      id: id, type: current.type, key: current.key,
+      direction: el("direction").value, rating: rating, at: new Date().toISOString()
+    }]);
+    recent.push(current.type + ":" + current.key + ":" + el("direction").value);
+    if (recent.length > 8) recent.shift();
+    sessionCount += 1;
+    persist();
+    showNext();
+  }
+  function fullSnapshot() {
+    var data = Object.assign({}, base, { review_log: reviews, exported_at: new Date().toISOString() });
+    return JSON.stringify(data, null, 2);
+  }
+  function progressExport() {
+    return JSON.stringify({
+      kind: "mandarin-review-update",
+      schema_version: 1,
+      exported_at: new Date().toISOString(),
+      source_updated_at: base.updated_at || null,
+      reviews: pendingReviews()
+    }, null, 2);
+  }
+  async function copyJSON(text) {
+    try {
+      if (!navigator.clipboard || !navigator.clipboard.writeText) throw new Error("Clipboard API unavailable");
+      await navigator.clipboard.writeText(text);
+      say("Copied to clipboard. Paste it into your Mandarin chat.");
+    } catch (err) {
+      el("import-text").value = text;
+      el("import-text").closest("details").open = true;
+      el("import-text").focus();
+      el("import-text").select();
+      say("Clipboard permission was denied. The JSON is selected below; choose Copy.", true);
+    }
+  }
+  function importJSON() {
+    try {
+      var incoming = JSON.parse(el("import-text").value);
+      if (incoming.kind === "mandarin-review-update" && incoming.schema_version === 1 && Array.isArray(incoming.reviews)) {
+        var before = reviews.length;
+        if (incoming.reviews.some(function (r) { return !validReview(r); })) throw new Error("Review export contains an invalid event.");
+        reviews = mergeReviews(reviews, incoming.reviews);
+        persist();
+        showNext();
+        say("Merged " + (reviews.length - before) + " new review events.");
+      } else {
+        validateSnapshot(incoming);
+        var previous = reviews.length;
+        takeSnapshot(incoming);
+        say("Imported snapshot and merged " + (reviews.length - previous) + " review events.");
+      }
+      el("import-text").value = "";
+    } catch (err) { say("Import failed: " + err.message, true); }
+  }
+  async function loadRemote() {
+    el("refresh").disabled = true;
+    try {
+      var response = await fetch("./progress.json?cache=" + Date.now(), { cache: "no-store" });
+      if (!response.ok) throw new Error("HTTP " + response.status);
+      var data = validateSnapshot(await response.json());
+      takeSnapshot(data);
+      say("GitHub record loaded. Local reviews safely merged.");
+    } catch (err) {
+      if (base) {
+        say("Could not refresh GitHub; using saved record (" + err.message + ").", true);
+      } else {
+        el("source").textContent = "No saved record";
+        el("front").textContent = "Unable to load cards";
+        el("hint").textContent = "Check GitHub Pages publishing, then refresh.";
+        say("Could not load progress.json: " + err.message, true);
+      }
+    } finally { el("refresh").disabled = false; }
+  }
+
+  el("card").addEventListener("click", reveal);
+  el("ratings").addEventListener("click", function (event) {
+    var button = event.target.closest("button[data-rating]");
+    if (button) rate(button.getAttribute("data-rating"));
+  });
+  ["category", "direction"].forEach(function (id) {
+    el(id).addEventListener("change", function () { recent = []; showNext(); });
+  });
+  el("due-only").addEventListener("change", showNext);
+  el("ahead-button").addEventListener("click", function () {
+    el("due-only").checked = false;
+    showNext();
+  });
+  el("copy-updates").addEventListener("click", function () {
+    if (!base) return say("Load the progress record first.", true);
+    copyJSON(progressExport());
+  });
+  el("copy-full").addEventListener("click", function () {
+    if (!base) return say("Load the progress record first.", true);
+    copyJSON(fullSnapshot());
+  });
+  el("import-button").addEventListener("click", importJSON);
+  el("refresh").addEventListener("click", loadRemote);
+  document.addEventListener("keydown", function (event) {
+    if (event.code === "Space" && document.activeElement === document.body && current && !revealed) {
+      event.preventDefault(); reveal();
+    }
+  });
+
+  try {
+    var saved = JSON.parse(localStorage.getItem(STORAGE_KEY) || "null");
+    if (saved && saved.snapshot) {
+      validateSnapshot(saved.snapshot);
+      base = saved.snapshot;
+      reviews = mergeReviews(saved.snapshot.review_log, saved.reviews);
+      updateSource();
+      showNext();
+      say("Showing saved record while checking GitHub.");
+    }
+  } catch (err) {
+    say("Local cache was unreadable. Checking GitHub…", true);
+  }
+  loadRemote();
+}());
+</script>
+</body>
+</html>
