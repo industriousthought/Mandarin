@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-27T13:02:04Z",
+  "updated_at": "2026-10-29T14:34:44.090Z",
   "description": "Canonical Mandarin learning record for conversations and the GitHub Pages flashcard app.",
   "learner": {
     "schema_version": 1,
@@ -77,7 +77,8 @@
       "2026-10-04–08: learner repeatedly volunteered correct observations about tense ambiguity, sequencing, and what was or was not explicitly encoded in the Mandarin.",
       "2026-10-04–08: newer grammar expanded into 以前, 完/result complements, potential complements, modal contrasts, 什么…都不…, measure word 件, 就, 只能, 本来, and 留到.",
       "2026-10-08: learner requested consolidation only; do not add a new future vocabulary batch until the current material is more stable.",
-      "2026-10-27: Strong sentence recognition; review 跟, 一起, 才能, 很久, and 哪里也没去. 马上 versus 直接 improved. No production tested. Continue consolidation without a new vocabulary batch."
+      "2026-10-27: Strong sentence recognition; review 跟, 一起, 才能, 很久, and 哪里也没去. 马上 versus 直接 improved. No production tested. Continue consolidation without a new vocabulary batch.",
+      "2026-10-29: Flashcard export self-rating, recognition only: 122 reviewed (61 easy, 41 good, 20 hard). Prioritize rechecks of 跑步、剩下的、到、可以、超市、或者、周末、就、所以、洗澡、件、才、先、餐厅 and grammar potential-complements, jiu-condition-sequence, cai-neng, liu-dao-endpoint, shenme-dou-negative, de-nominalization-rest. Do not interpret ratings as conversational tests or production mastery."
     ]
   },
   "vocab": {
@@ -3287,5 +3288,982 @@
       ]
     }
   },
-  "review_log": []
+  "review_log": [
+    {
+      "id": "3a827d8d-2b60-4708-a79e-2b8135e9459f",
+      "type": "vocab",
+      "key": "公交车",
+      "direction": "recognition",
+      "rating": "good",
+      "at": "2026-10-28T22:06:23.848Z"
+    },
+    {
+      "id": "5c999aad-a90f-4855-8bad-ec40e00c5b9f",
+      "type": "vocab",
+      "key": "没有",
+      "direction": "recognition",
+      "rating": "good",
+      "at": "2026-10-28T22:06:28.720Z"
+    },
+    {
+      "id": "7b74a618-deec-45fa-82ca-17abd0fc16df",
+      "type": "vocab",
+      "key": "一起",
+      "direction": "recognition",
+      "rating": "good",
+      "at": "2026-10-28T22:06:33.284Z"
+    },
+    {
+      "id": "e73833a3-72b4-4c4f-8ade-4aceee9a6f6d",
+      "type": "vocab",
+      "key": "跟",
+      "direction": "recognition",
+      "rating": "good",
+      "at": "2026-10-28T22:06:37.747Z"
+    },
+    {
+      "id": "66b556a9-a993-4bfc-bdc5-15a91e59d9d0",
+      "type": "vocab",
+      "key": "昨天下午",
+      "direction": "recognition",
+      "rating": "good",
+      "at": "2026-10-28T22:06:48.236Z"
+    },
+    {
+      "id": "6118fc55-7137-40e3-bba8-b05db54db2dd",
+      "type": "vocab",
+      "key": "跑步",
+      "direction": "recognition",
+      "rating": "hard",
+      "at": "2026-10-28T22:07:04.335Z"
+    },
+    {
+      "id": "0e9d878d-432d-4367-a83d-66a7eb05044f",
+      "type": "vocab",
+      "key": "出去",
+      "direction": "recognition",
+      "rating": "good",
+      "at": "2026-10-28T22:07:08.038Z"
+    },
+    {
+      "id": "8ca3e316-5208-4f74-81f0-9dfeb45df632",
+      "type": "vocab",
+      "key": "早上",
+      "direction": "recognition",
+      "rating": "good",
+      "at": "2026-10-28T22:07:12.087Z"
+    },
+    {
+      "id": "dcb14e32-b45c-45b4-a0c9-f500add26c57",
+      "type": "vocab",
+      "key": "公园",
+      "direction": "recognition",
+      "rating": "easy",
+      "at": "2026-10-28T22:07:16.189Z"
+    },
+    {
+      "id": "abdf9a68-01fe-4e1a-b5a4-3ec7060256ee",
+      "type": "vocab",
+      "key": "睡觉",
+      "direction": "recognition",
+      "rating": "good",
+      "at": "2026-10-28T22:07:34.698Z"
+    },
+    {
+      "id": "aa1f168f-4d54-4c67-bb75-8456b2228881",
+      "type": "vocab",
+      "key": "剩下的",
+      "direction": "recognition",
+      "rating": "hard",
+      "at": "2026-10-28T22:08:27.171Z"
+    },
+    {
+      "id": "4646cac9-2f6c-4740-b558-2a7880cced7a",
+      "type": "vocab",
+      "key": "很久",
+      "direction": "recognition",
+      "rating": "good",
+      "at": "2026-10-28T22:08:31.009Z"
+    },
+    {
+      "id": "89116c39-ef10-4416-bf56-a07b0c7ed471",
+      "type": "vocab",
+      "key": "工作",
+      "direction": "recognition",
+      "rating": "easy",
+      "at": "2026-10-28T22:08:33.311Z"
+    },
+    {
+      "id": "aceb7270-7adb-4c32-a233-c03c225b9016",
+      "type": "vocab",
+      "key": "妹妹",
+      "direction": "recognition",
+      "rating": "easy",
+      "at": "2026-10-28T22:08:37.219Z"
+    },
+    {
+      "id": "29dac379-7e30-48d7-97d9-1eb5bce00e04",
+      "type": "vocab",
+      "key": "做饭",
+      "direction": "recognition",
+      "rating": "easy",
+      "at": "2026-10-28T22:08:42.617Z"
+    },
+    {
+      "id": "15a3ee5f-6565-4f28-bf89-783c2fb36547",
+      "type": "grammar",
+      "key": "sequence-xian-zai-ranhou-yihou",
+      "direction": "recognition",
+      "rating": "good",
+      "at": "2026-10-28T22:08:56.918Z"
+    },
+    {
+      "id": "1ba97c7a-a689-4b4d-98ea-02aee51ef1e3",
+      "type": "grammar",
+      "key": "ma-shang-zhi-jie",
+      "direction": "recognition",
+      "rating": "easy",
+      "at": "2026-10-28T22:09:01.634Z"
+    },
+    {
+      "id": "89f18842-9ce7-467c-95c4-dea03e2de5d7",
+      "type": "vocab",
+      "key": "留",
+      "direction": "recognition",
+      "rating": "good",
+      "at": "2026-10-28T22:09:07.897Z"
+    },
+    {
+      "id": "43476b86-39b9-44b3-9dba-2ba857e04e2c",
+      "type": "vocab",
+      "key": "东西",
+      "direction": "recognition",
+      "rating": "good",
+      "at": "2026-10-28T22:09:13.623Z"
+    },
+    {
+      "id": "3dc0d2b3-a002-420f-8e52-2bc3eb8431b5",
+      "type": "vocab",
+      "key": "星期二",
+      "direction": "recognition",
+      "rating": "good",
+      "at": "2026-10-28T22:09:17.748Z"
+    },
+    {
+      "id": "18563a00-f07b-46d7-b943-393786794034",
+      "type": "vocab",
+      "key": "开车",
+      "direction": "recognition",
+      "rating": "good",
+      "at": "2026-10-28T22:09:22.296Z"
+    },
+    {
+      "id": "736740e6-3b0f-4456-b562-a871b93bcaa1",
+      "type": "vocab",
+      "key": "要",
+      "direction": "recognition",
+      "rating": "good",
+      "at": "2026-10-28T22:09:32.586Z"
+    },
+    {
+      "id": "e2049024-b7a2-48e9-a499-6d565d4775a6",
+      "type": "vocab",
+      "key": "马上",
+      "direction": "recognition",
+      "rating": "easy",
+      "at": "2026-10-28T22:09:35.828Z"
+    },
+    {
+      "id": "1c4bd8fa-8ff1-4e25-a47d-de8d3a232141",
+      "type": "vocab",
+      "key": "星期三",
+      "direction": "recognition",
+      "rating": "easy",
+      "at": "2026-10-29T14:10:23.351Z"
+    },
+    {
+      "id": "4f8bfd30-7ed6-47fe-a3f5-89c2c591f4af",
+      "type": "grammar",
+      "key": "de-manner-complement",
+      "direction": "recognition",
+      "rating": "good",
+      "at": "2026-10-29T14:10:48.467Z"
+    },
+    {
+      "id": "2579fa9d-103d-4a7f-a5d3-cfddb9c10c89",
+      "type": "vocab",
+      "key": "到",
+      "direction": "recognition",
+      "rating": "hard",
+      "at": "2026-10-29T14:11:01.270Z"
+    },
+    {
+      "id": "e9858536-30c1-487e-ac77-e24527b7fdc2",
+      "type": "vocab",
+      "key": "每天",
+      "direction": "recognition",
+      "rating": "easy",
+      "at": "2026-10-29T14:11:06.565Z"
+    },
+    {
+      "id": "a91e4c05-77da-47c9-8ac6-dfa1c59881c7",
+      "type": "vocab",
+      "key": "可以",
+      "direction": "recognition",
+      "rating": "hard",
+      "at": "2026-10-29T14:11:17.988Z"
+    },
+    {
+      "id": "ee5ce753-cb14-4e83-982f-0d062058f338",
+      "type": "vocab",
+      "key": "常常",
+      "direction": "recognition",
+      "rating": "easy",
+      "at": "2026-10-29T14:11:20.056Z"
+    },
+    {
+      "id": "a044cda7-a5ae-4145-abb5-5673dd59b927",
+      "type": "vocab",
+      "key": "起来",
+      "direction": "recognition",
+      "rating": "easy",
+      "at": "2026-10-29T14:11:25.654Z"
+    },
+    {
+      "id": "ac231135-b59d-4e2d-a167-d7b932af1bd9",
+      "type": "grammar",
+      "key": "nali-ye",
+      "direction": "recognition",
+      "rating": "good",
+      "at": "2026-10-29T14:11:41.209Z"
+    },
+    {
+      "id": "529f914d-ee5b-446a-bed7-f1b922cf9ec9",
+      "type": "vocab",
+      "key": "再",
+      "direction": "recognition",
+      "rating": "good",
+      "at": "2026-10-29T14:11:47.514Z"
+    },
+    {
+      "id": "629a34b0-2bac-4899-909c-fe06c70af91a",
+      "type": "grammar",
+      "key": "time-reference-from-context",
+      "direction": "recognition",
+      "rating": "good",
+      "at": "2026-10-29T14:19:41.778Z"
+    },
+    {
+      "id": "4bf19e61-8bd1-45f4-bfca-8df1f4ea289c",
+      "type": "grammar",
+      "key": "before-after-yiqian-yihou",
+      "direction": "recognition",
+      "rating": "good",
+      "at": "2026-10-29T14:20:01.155Z"
+    },
+    {
+      "id": "fd9e2392-3a73-4be2-be91-75ba2f0a3d0c",
+      "type": "grammar",
+      "key": "benlai-contrast",
+      "direction": "recognition",
+      "rating": "easy",
+      "at": "2026-10-29T14:20:08.586Z"
+    },
+    {
+      "id": "1d29aa8c-6080-4f13-ad18-924033214582",
+      "type": "grammar",
+      "key": "adjective-de-noun",
+      "direction": "recognition",
+      "rating": "good",
+      "at": "2026-10-29T14:20:15.793Z"
+    },
+    {
+      "id": "8941c7d5-a0aa-4680-b358-6b6b2e23984d",
+      "type": "vocab",
+      "key": "健身房",
+      "direction": "recognition",
+      "rating": "good",
+      "at": "2026-10-29T14:20:20.469Z"
+    },
+    {
+      "id": "8d41ca74-da72-40ef-a871-958c009a6b3f",
+      "type": "vocab",
+      "key": "上班",
+      "direction": "recognition",
+      "rating": "good",
+      "at": "2026-10-29T14:20:25.831Z"
+    },
+    {
+      "id": "2fd4cdff-3f7b-4892-8751-33d28c401b33",
+      "type": "vocab",
+      "key": "超市",
+      "direction": "recognition",
+      "rating": "hard",
+      "at": "2026-10-29T14:20:42.790Z"
+    },
+    {
+      "id": "91c9c274-f096-44b2-9933-4f2bd8b04657",
+      "type": "vocab",
+      "key": "昨天晚上",
+      "direction": "recognition",
+      "rating": "good",
+      "at": "2026-10-29T14:20:50.705Z"
+    },
+    {
+      "id": "b8f908ca-d08a-48db-8b34-413c8c928e42",
+      "type": "grammar",
+      "key": "tai-le-degree",
+      "direction": "recognition",
+      "rating": "good",
+      "at": "2026-10-29T14:21:02.246Z"
+    },
+    {
+      "id": "bc22c8f4-1fc6-40e0-b613-8fbe84212801",
+      "type": "vocab",
+      "key": "通常",
+      "direction": "recognition",
+      "rating": "good",
+      "at": "2026-10-29T14:21:17.548Z"
+    },
+    {
+      "id": "731baea0-1087-44a2-90b5-81543719ce71",
+      "type": "vocab",
+      "key": "或者",
+      "direction": "recognition",
+      "rating": "hard",
+      "at": "2026-10-29T14:21:28.143Z"
+    },
+    {
+      "id": "c6bce081-1453-44eb-b384-0de37fdcaecb",
+      "type": "vocab",
+      "key": "还是",
+      "direction": "recognition",
+      "rating": "easy",
+      "at": "2026-10-29T14:21:43.423Z"
+    },
+    {
+      "id": "312642a6-cca2-4a5a-94d9-4683fe51ff6b",
+      "type": "vocab",
+      "key": "地方",
+      "direction": "recognition",
+      "rating": "easy",
+      "at": "2026-10-29T14:21:48.720Z"
+    },
+    {
+      "id": "0fc36c49-2754-418f-bd9c-0efae7e12521",
+      "type": "vocab",
+      "key": "星期五",
+      "direction": "recognition",
+      "rating": "easy",
+      "at": "2026-10-29T14:21:55.353Z"
+    },
+    {
+      "id": "f4cbef2f-45ce-4884-bf39-462a7249f652",
+      "type": "vocab",
+      "key": "咖啡店",
+      "direction": "recognition",
+      "rating": "easy",
+      "at": "2026-10-29T14:21:57.794Z"
+    },
+    {
+      "id": "bcc9012d-9fc0-4ce7-af65-4e39ef6d96f4",
+      "type": "vocab",
+      "key": "能",
+      "direction": "recognition",
+      "rating": "good",
+      "at": "2026-10-29T14:22:12.990Z"
+    },
+    {
+      "id": "2b9c9322-6aa7-4a8d-b484-79d314e82d7d",
+      "type": "vocab",
+      "key": "朋友",
+      "direction": "recognition",
+      "rating": "easy",
+      "at": "2026-10-29T14:22:16.300Z"
+    },
+    {
+      "id": "9d15089c-a711-4303-8563-345859959ce4",
+      "type": "vocab",
+      "key": "以前",
+      "direction": "recognition",
+      "rating": "easy",
+      "at": "2026-10-29T14:22:26.810Z"
+    },
+    {
+      "id": "58a6bde7-26cd-4d89-9967-6ed050f73379",
+      "type": "vocab",
+      "key": "早点",
+      "direction": "recognition",
+      "rating": "easy",
+      "at": "2026-10-29T14:22:34.411Z"
+    },
+    {
+      "id": "c084130f-750b-41d6-a1d7-5f9b74d27acd",
+      "type": "vocab",
+      "key": "都",
+      "direction": "recognition",
+      "rating": "easy",
+      "at": "2026-10-29T14:22:37.621Z"
+    },
+    {
+      "id": "5a304e23-3579-433f-a683-675d817be102",
+      "type": "vocab",
+      "key": "一下",
+      "direction": "recognition",
+      "rating": "easy",
+      "at": "2026-10-29T14:22:45.509Z"
+    },
+    {
+      "id": "21692ee2-1219-41f0-ade7-4036d3cb92e9",
+      "type": "vocab",
+      "key": "今晚",
+      "direction": "recognition",
+      "rating": "easy",
+      "at": "2026-10-29T14:22:50.565Z"
+    },
+    {
+      "id": "d7e1ac98-b791-4ac1-928e-9e6b8e493a58",
+      "type": "vocab",
+      "key": "本来",
+      "direction": "recognition",
+      "rating": "easy",
+      "at": "2026-10-29T14:22:52.757Z"
+    },
+    {
+      "id": "cdb396df-c55b-4fb8-97ba-b58fd4253e7c",
+      "type": "vocab",
+      "key": "看电影",
+      "direction": "recognition",
+      "rating": "easy",
+      "at": "2026-10-29T14:23:08.956Z"
+    },
+    {
+      "id": "9dfc9a53-5357-409f-8d72-b2fc717155a8",
+      "type": "vocab",
+      "key": "中午",
+      "direction": "recognition",
+      "rating": "easy",
+      "at": "2026-10-29T14:23:13.275Z"
+    },
+    {
+      "id": "d23cc652-2d1b-4e09-869b-3fb1f33c526e",
+      "type": "vocab",
+      "key": "起床",
+      "direction": "recognition",
+      "rating": "easy",
+      "at": "2026-10-29T14:23:17.151Z"
+    },
+    {
+      "id": "a334f9bd-2353-48cb-8fd6-aabb687fc565",
+      "type": "vocab",
+      "key": "学习",
+      "direction": "recognition",
+      "rating": "easy",
+      "at": "2026-10-29T14:23:22.956Z"
+    },
+    {
+      "id": "2ed9b6ca-5b0d-4d57-bac1-d503af3a75fb",
+      "type": "vocab",
+      "key": "休息",
+      "direction": "recognition",
+      "rating": "good",
+      "at": "2026-10-29T14:24:07.365Z"
+    },
+    {
+      "id": "62f2c309-1519-4c50-85d7-dc1228b0929a",
+      "type": "grammar",
+      "key": "potential-complements",
+      "direction": "recognition",
+      "rating": "hard",
+      "at": "2026-10-29T14:24:33.488Z"
+    },
+    {
+      "id": "1cce9262-a975-494f-a2c1-052b724ec222",
+      "type": "vocab",
+      "key": "星期一",
+      "direction": "recognition",
+      "rating": "easy",
+      "at": "2026-10-29T14:24:36.276Z"
+    },
+    {
+      "id": "8342a21c-e84f-4b0f-9709-a1ecd57f07e3",
+      "type": "vocab",
+      "key": "姐姐",
+      "direction": "recognition",
+      "rating": "easy",
+      "at": "2026-10-29T14:24:40.666Z"
+    },
+    {
+      "id": "814d61c6-a454-4b05-97dd-67ce8c0610bb",
+      "type": "grammar",
+      "key": "jiu-condition-sequence",
+      "direction": "recognition",
+      "rating": "hard",
+      "at": "2026-10-29T14:25:40.423Z"
+    },
+    {
+      "id": "44316d68-89b5-4abf-b13b-0cec52a2f9ad",
+      "type": "vocab",
+      "key": "哪里",
+      "direction": "recognition",
+      "rating": "easy",
+      "at": "2026-10-29T14:25:56.835Z"
+    },
+    {
+      "id": "258a604a-a568-4e49-92c2-694cbbed9d65",
+      "type": "vocab",
+      "key": "太",
+      "direction": "recognition",
+      "rating": "good",
+      "at": "2026-10-29T14:26:02.693Z"
+    },
+    {
+      "id": "b024d7ed-cde2-4c54-8c20-9a23ebe7f895",
+      "type": "grammar",
+      "key": "habitual-time-frequency",
+      "direction": "recognition",
+      "rating": "easy",
+      "at": "2026-10-29T14:26:05.218Z"
+    },
+    {
+      "id": "3aa63327-66c5-4a00-995c-2c4c1a095e79",
+      "type": "vocab",
+      "key": "晚上",
+      "direction": "recognition",
+      "rating": "easy",
+      "at": "2026-10-29T14:26:08.992Z"
+    },
+    {
+      "id": "cc84127a-d8c4-441e-8c85-8bea3ab2cf9b",
+      "type": "vocab",
+      "key": "但是",
+      "direction": "recognition",
+      "rating": "easy",
+      "at": "2026-10-29T14:26:11.733Z"
+    },
+    {
+      "id": "afe6e068-570c-485a-83e0-f86d833b9624",
+      "type": "grammar",
+      "key": "duration-jiu",
+      "direction": "recognition",
+      "rating": "good",
+      "at": "2026-10-29T14:26:38.583Z"
+    },
+    {
+      "id": "5ab36d59-c8f7-41f8-8a1c-19f288ea9b78",
+      "type": "grammar",
+      "key": "xiang-modal",
+      "direction": "recognition",
+      "rating": "easy",
+      "at": "2026-10-29T14:26:45.244Z"
+    },
+    {
+      "id": "10f6577f-0798-4230-8e13-19a30077c6cb",
+      "type": "vocab",
+      "key": "看书",
+      "direction": "recognition",
+      "rating": "easy",
+      "at": "2026-10-29T14:26:50.347Z"
+    },
+    {
+      "id": "42da77c6-1ddb-44ed-b35a-42bc5219067b",
+      "type": "vocab",
+      "key": "辣",
+      "direction": "recognition",
+      "rating": "easy",
+      "at": "2026-10-29T14:26:55.528Z"
+    },
+    {
+      "id": "9a0ce7f2-ac3d-41c4-a502-6a6ccad053c0",
+      "type": "vocab",
+      "key": "想",
+      "direction": "recognition",
+      "rating": "easy",
+      "at": "2026-10-29T14:26:58.301Z"
+    },
+    {
+      "id": "6e8aa084-ee9e-4f79-9b34-90318e88149b",
+      "type": "vocab",
+      "key": "星期六",
+      "direction": "recognition",
+      "rating": "easy",
+      "at": "2026-10-29T14:27:19.678Z"
+    },
+    {
+      "id": "38deab87-bc38-4fec-9c13-8a10b570909e",
+      "type": "vocab",
+      "key": "周末",
+      "direction": "recognition",
+      "rating": "hard",
+      "at": "2026-10-29T14:27:45.539Z"
+    },
+    {
+      "id": "f9142102-a2a6-4fad-b74c-6c47b40db9ee",
+      "type": "vocab",
+      "key": "不用",
+      "direction": "recognition",
+      "rating": "good",
+      "at": "2026-10-29T14:27:54.981Z"
+    },
+    {
+      "id": "b955e217-417a-4e44-9c53-af40554ceabc",
+      "type": "vocab",
+      "key": "星期天",
+      "direction": "recognition",
+      "rating": "easy",
+      "at": "2026-10-29T14:27:57.513Z"
+    },
+    {
+      "id": "1bff269b-2958-4e9b-9f90-50263e589d39",
+      "type": "vocab",
+      "key": "办公室",
+      "direction": "recognition",
+      "rating": "good",
+      "at": "2026-10-29T14:28:13.166Z"
+    },
+    {
+      "id": "9a81b8c9-31c6-41fc-9f51-acd533236c32",
+      "type": "vocab",
+      "key": "就",
+      "direction": "recognition",
+      "rating": "hard",
+      "at": "2026-10-29T14:28:26.838Z"
+    },
+    {
+      "id": "1d36305a-c8ba-4be3-9264-feb303051599",
+      "type": "vocab",
+      "key": "不能",
+      "direction": "recognition",
+      "rating": "good",
+      "at": "2026-10-29T14:28:33.795Z"
+    },
+    {
+      "id": "742a675a-3fc3-483c-952f-0386318d9c89",
+      "type": "grammar",
+      "key": "modal-contrast",
+      "direction": "recognition",
+      "rating": "easy",
+      "at": "2026-10-29T14:28:39.585Z"
+    },
+    {
+      "id": "3fc2e9ed-bf33-4839-b654-89ce3fa84c0a",
+      "type": "vocab",
+      "key": "商店",
+      "direction": "recognition",
+      "rating": "easy",
+      "at": "2026-10-29T14:28:45.822Z"
+    },
+    {
+      "id": "97b71231-ec20-4a12-9aae-a6be66439214",
+      "type": "vocab",
+      "key": "散步",
+      "direction": "recognition",
+      "rating": "easy",
+      "at": "2026-10-29T14:28:50.188Z"
+    },
+    {
+      "id": "3d13a68b-7092-4858-ba83-e348852bc25f",
+      "type": "vocab",
+      "key": "什么",
+      "direction": "recognition",
+      "rating": "easy",
+      "at": "2026-10-29T14:28:55.271Z"
+    },
+    {
+      "id": "32eb415a-c8c7-466f-afe0-51e0421667ca",
+      "type": "vocab",
+      "key": "等",
+      "direction": "recognition",
+      "rating": "easy",
+      "at": "2026-10-29T14:28:57.827Z"
+    },
+    {
+      "id": "c7ccc792-4e11-4f85-99b3-dcdbb2d09357",
+      "type": "vocab",
+      "key": "所以",
+      "direction": "recognition",
+      "rating": "hard",
+      "at": "2026-10-29T14:29:08.263Z"
+    },
+    {
+      "id": "d561b09c-e9e9-4fe1-8f06-08e1c74f2d02",
+      "type": "grammar",
+      "key": "cai-neng",
+      "direction": "recognition",
+      "rating": "hard",
+      "at": "2026-10-29T14:29:24.790Z"
+    },
+    {
+      "id": "957339c1-f0b6-44ea-a2c9-7cea4bb32d5a",
+      "type": "vocab",
+      "key": "回家",
+      "direction": "recognition",
+      "rating": "easy",
+      "at": "2026-10-29T14:29:27.846Z"
+    },
+    {
+      "id": "4573a87b-e5d9-4d65-a2c6-5235d66934a8",
+      "type": "vocab",
+      "key": "以后",
+      "direction": "recognition",
+      "rating": "easy",
+      "at": "2026-10-29T14:29:32.644Z"
+    },
+    {
+      "id": "99bf23bb-6cf7-4264-84c7-68039018f266",
+      "type": "vocab",
+      "key": "洗澡",
+      "direction": "recognition",
+      "rating": "hard",
+      "at": "2026-10-29T14:29:42.982Z"
+    },
+    {
+      "id": "d455d8e0-b2be-42f3-aeb2-6359174a0492",
+      "type": "vocab",
+      "key": "件",
+      "direction": "recognition",
+      "rating": "hard",
+      "at": "2026-10-29T14:29:51.419Z"
+    },
+    {
+      "id": "b3446992-bae7-4960-8089-089c70288bfd",
+      "type": "grammar",
+      "key": "measure-word-jian",
+      "direction": "recognition",
+      "rating": "easy",
+      "at": "2026-10-29T14:29:56.242Z"
+    },
+    {
+      "id": "2a8245ad-7470-4ce2-8455-db2b92ba0645",
+      "type": "vocab",
+      "key": "然后",
+      "direction": "recognition",
+      "rating": "good",
+      "at": "2026-10-29T14:30:09.493Z"
+    },
+    {
+      "id": "9fd78d41-3a0f-4119-bfd7-8119447e3b0c",
+      "type": "vocab",
+      "key": "只",
+      "direction": "recognition",
+      "rating": "good",
+      "at": "2026-10-29T14:30:12.966Z"
+    },
+    {
+      "id": "9064fb29-484b-4a82-9a26-938b0108a11c",
+      "type": "grammar",
+      "key": "gen-yiqi",
+      "direction": "recognition",
+      "rating": "good",
+      "at": "2026-10-29T14:30:33.799Z"
+    },
+    {
+      "id": "27e91d08-4c5d-45dc-8bd8-cb0a99b473df",
+      "type": "vocab",
+      "key": "在家",
+      "direction": "recognition",
+      "rating": "good",
+      "at": "2026-10-29T14:30:50.774Z"
+    },
+    {
+      "id": "f65f4c5a-2e0d-4e4a-8210-eda4cdd27919",
+      "type": "vocab",
+      "key": "直接",
+      "direction": "recognition",
+      "rating": "good",
+      "at": "2026-10-29T14:30:58.358Z"
+    },
+    {
+      "id": "2156c29a-d457-475a-a775-14ac2430d7f1",
+      "type": "grammar",
+      "key": "liu-dao-endpoint",
+      "direction": "recognition",
+      "rating": "hard",
+      "at": "2026-10-29T14:31:18.582Z"
+    },
+    {
+      "id": "18e242e1-99ff-41bb-846d-28ac172f7940",
+      "type": "vocab",
+      "key": "完",
+      "direction": "recognition",
+      "rating": "easy",
+      "at": "2026-10-29T14:31:21.641Z"
+    },
+    {
+      "id": "038560dc-7b84-4ee6-a771-3f49f7dd671e",
+      "type": "vocab",
+      "key": "星期四",
+      "direction": "recognition",
+      "rating": "easy",
+      "at": "2026-10-29T14:31:25.837Z"
+    },
+    {
+      "id": "7af01bd8-0a94-4ac2-9b9d-96752a56fbcc",
+      "type": "grammar",
+      "key": "result-complement-wan",
+      "direction": "recognition",
+      "rating": "easy",
+      "at": "2026-10-29T14:31:32.734Z"
+    },
+    {
+      "id": "87358513-2ad4-47f6-82c1-db60cc57be86",
+      "type": "vocab",
+      "key": "一会儿",
+      "direction": "recognition",
+      "rating": "good",
+      "at": "2026-10-29T14:31:46.470Z"
+    },
+    {
+      "id": "f5c53ab7-f941-449a-977d-9fe026736a4c",
+      "type": "grammar",
+      "key": "cause-result-suoyi",
+      "direction": "recognition",
+      "rating": "good",
+      "at": "2026-10-29T14:31:55.570Z"
+    },
+    {
+      "id": "195cf3d7-0ce0-4f0f-8b52-9232e973e636",
+      "type": "vocab",
+      "key": "坐",
+      "direction": "recognition",
+      "rating": "easy",
+      "at": "2026-10-29T14:31:59.796Z"
+    },
+    {
+      "id": "a8222ef3-b3be-439c-a59a-b77dd04c3837",
+      "type": "grammar",
+      "key": "shenme-dou-negative",
+      "direction": "recognition",
+      "rating": "hard",
+      "at": "2026-10-29T14:32:32.990Z"
+    },
+    {
+      "id": "14f4f60a-78ae-403a-b1e3-0d181e8abdc8",
+      "type": "vocab",
+      "key": "才",
+      "direction": "recognition",
+      "rating": "hard",
+      "at": "2026-10-29T14:32:39.721Z"
+    },
+    {
+      "id": "27bf3283-9ea4-4c28-ac56-8e83c2d80568",
+      "type": "vocab",
+      "key": "下班",
+      "direction": "recognition",
+      "rating": "easy",
+      "at": "2026-10-29T14:32:46.136Z"
+    },
+    {
+      "id": "c31fc955-fca9-46b9-b0e6-6b19888aca5a",
+      "type": "vocab",
+      "key": "先",
+      "direction": "recognition",
+      "rating": "hard",
+      "at": "2026-10-29T14:32:51.765Z"
+    },
+    {
+      "id": "352ce42a-8ddd-4eed-9d15-89acc4bb6a60",
+      "type": "vocab",
+      "key": "午饭",
+      "direction": "recognition",
+      "rating": "easy",
+      "at": "2026-10-29T14:33:00.354Z"
+    },
+    {
+      "id": "45b56ffe-fa97-4c74-bf94-9d4f4a5bd594",
+      "type": "vocab",
+      "key": "早饭",
+      "direction": "recognition",
+      "rating": "easy",
+      "at": "2026-10-29T14:33:03.047Z"
+    },
+    {
+      "id": "c6d2df31-d27e-4358-b55b-7131f116c9f6",
+      "type": "vocab",
+      "key": "餐厅",
+      "direction": "recognition",
+      "rating": "hard",
+      "at": "2026-10-29T14:33:09.304Z"
+    },
+    {
+      "id": "2401fea5-a464-42c9-989f-36c391727504",
+      "type": "vocab",
+      "key": "晚饭",
+      "direction": "recognition",
+      "rating": "easy",
+      "at": "2026-10-29T14:33:14.569Z"
+    },
+    {
+      "id": "f9810add-a631-4023-94b4-0cacb0efc0b3",
+      "type": "grammar",
+      "key": "mei-you-vs-bu-yong",
+      "direction": "recognition",
+      "rating": "good",
+      "at": "2026-10-29T14:33:25.209Z"
+    },
+    {
+      "id": "86254a46-7bb7-431a-ba28-d796eaf3cf13",
+      "type": "vocab",
+      "key": "事情",
+      "direction": "recognition",
+      "rating": "easy",
+      "at": "2026-10-29T14:33:28.266Z"
+    },
+    {
+      "id": "4c4555ee-2e26-41e6-a088-ec06237cc0af",
+      "type": "vocab",
+      "key": "还",
+      "direction": "recognition",
+      "rating": "easy",
+      "at": "2026-10-29T14:33:32.625Z"
+    },
+    {
+      "id": "346b6f01-bc00-48da-bd4f-88f1ed56036d",
+      "type": "vocab",
+      "key": "只能",
+      "direction": "recognition",
+      "rating": "easy",
+      "at": "2026-10-29T14:33:38.342Z"
+    },
+    {
+      "id": "aee6ca1d-68b4-49ac-8282-67fa2ac0761e",
+      "type": "grammar",
+      "key": "de-nominalization-rest",
+      "direction": "recognition",
+      "rating": "hard",
+      "at": "2026-10-29T14:33:50.667Z"
+    },
+    {
+      "id": "3628435a-a932-4651-a34f-610a09fd164a",
+      "type": "vocab",
+      "key": "图书馆",
+      "direction": "recognition",
+      "rating": "easy",
+      "at": "2026-10-29T14:34:15.077Z"
+    },
+    {
+      "id": "b9d40468-8f3c-4bae-97b0-418f9a36be96",
+      "type": "vocab",
+      "key": "买",
+      "direction": "recognition",
+      "rating": "easy",
+      "at": "2026-10-29T14:34:18.580Z"
+    },
+    {
+      "id": "38a41ae5-e900-4344-9530-6b6717e9ba0a",
+      "type": "vocab",
+      "key": "喝茶",
+      "direction": "recognition",
+      "rating": "easy",
+      "at": "2026-10-29T14:34:21.507Z"
+    },
+    {
+      "id": "5c777b51-1467-4d27-b0f9-f2e4b8e5ace3",
+      "type": "vocab",
+      "key": "有时候",
+      "direction": "recognition",
+      "rating": "easy",
+      "at": "2026-10-29T14:34:31.495Z"
+    }
+  ]
 }
